@@ -1,0 +1,7 @@
+D:\Projects\Apache_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Apache_Shooter\Definitions.Apache_Shooter.h
+D:\Projects\Apache_Shooter\Source\Apache_Shooter\Apache_ShooterGameModeBase.h
+C:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+D:\Projects\Apache_Shooter\Intermediate\Build\Win64\UE4Editor\Inc\Apache_Shooter\Apache_ShooterGameModeBase.generated.h

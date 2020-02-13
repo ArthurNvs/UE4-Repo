@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Apache_Shooter.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C26E83F5-DFAD-42F4-AB54-7BEC7DC8C31C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Apache_Shooter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Apache_ShooterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{E6E35B3A-4A01-4B3B-869B-2FFCE4E09010}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Apache_Shooter">
+      <UniqueIdentifier>{E7C532B5-BFD5-4173-AE5C-71CD34407D35}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Apache_Shooter\Apache_Shooter.Build.cs">
+      <Filter>Source\Apache_Shooter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Apache_Shooter\Apache_Shooter.cpp">
+      <Filter>Source\Apache_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Apache_Shooter\Apache_Shooter.h">
+      <Filter>Source\Apache_Shooter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Apache_Shooter\Apache_ShooterGameModeBase.cpp">
+      <Filter>Source\Apache_Shooter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Apache_Shooter\Apache_ShooterGameModeBase.h">
+      <Filter>Source\Apache_Shooter</Filter>
+    </ClInclude>
+    <Filter Include="Source\Apache_Shooter\Private">
+      <UniqueIdentifier>{C03CD906-BF0E-4DBC-AED6-97F7577E3FA4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Apache_Shooter\Private\S_Character.cpp">
+      <Filter>Source\Apache_Shooter\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\Apache_Shooter\Public">
+      <UniqueIdentifier>{59BFB3DE-B962-46DC-9CFA-157D54C982F0}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Apache_Shooter\Public\S_Character.h">
+      <Filter>Source\Apache_Shooter\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Apache_Shooter\Public\S_Pickup.h">
+      <Filter>Source\Apache_Shooter\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Apache_Shooter\Public\InventoryComponent.h">
+      <Filter>Source\Apache_Shooter\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Apache_Shooter\Public\InventoryActor.h">
+      <Filter>Source\Apache_Shooter\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Apache_Shooter\Private\S_Pickup.cpp">
+      <Filter>Source\Apache_Shooter\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Apache_Shooter\Private\InventoryComponent.cpp">
+      <Filter>Source\Apache_Shooter\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Apache_Shooter\Private\InventoryActor.cpp">
+      <Filter>Source\Apache_Shooter\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

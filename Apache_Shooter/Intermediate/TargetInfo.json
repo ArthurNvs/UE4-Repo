@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Apache_Shooter",
+			"Path": "D:\\Projects\\Apache_Shooter\\Source\\Apache_Shooter.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Apache_ShooterEditor",
+			"Path": "D:\\Projects\\Apache_Shooter\\Source\\Apache_ShooterEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
