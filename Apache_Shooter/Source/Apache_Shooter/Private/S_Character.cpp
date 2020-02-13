@@ -58,6 +58,7 @@ void AS_Character::CharInits()
 
 	//Init inventory
 	ItemsInventory.SetNum(MAX_INVENTORY_ITEMS);
+	WeaponInventory.SetNum(2);
 }
 
 
@@ -78,13 +79,6 @@ void AS_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	InputComponent->BindAction("Item2", IE_Pressed, this, &AS_Character::SelectItem2);
 	InputComponent->BindAction("Item3", IE_Pressed, this, &AS_Character::SelectItem3);
 	InputComponent->BindAction("Item4", IE_Pressed, this, &AS_Character::SelectItem4);
-
-	//PlayerInputComponent->BindAction("Shoot", IE_Pressed, this, &AS_Character::Shoot);
-	//PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &AS_Character::ReloadWeapon);
-	//PlayerInputComponent->BindAction("Aim", IE_Pressed, this, &AS_Character::AimWeapon);
-	//PlayerInputComponent->BindAction("Aim", IE_Released, this, &AS_Character::AimWeaponOff);
-	//PlayerInputComponent->BindAction("ThrowWeapon", IE_Pressed, this, &AS_Character::ThrowWeapon);
-	//PlayerInputComponent->BindAction("SelectPistol", IE_Pressed, this, &AS_Character::GetWeapon);
 
 	//AXIS
 	PlayerInputComponent->BindAxis("Forward", this, &AS_Character::MoveForward);

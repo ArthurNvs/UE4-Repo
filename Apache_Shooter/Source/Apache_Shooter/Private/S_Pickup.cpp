@@ -51,4 +51,3 @@ void AS_Pickup::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 
 }
-
