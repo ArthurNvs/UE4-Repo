@@ -3,6 +3,7 @@
 
 #include "S_Character.h"
 #include "S_Pickup.h"
+#include "S_Weapon.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "GameFramework/CharacterMovementComponent.h"
@@ -11,6 +12,7 @@
 #include "Containers/Array.h"
 
 #define MAX_INVENTORY_ITEMS 4
+#define MAX_INVENTORY_WEAPONS 2
 
 AS_Character::AS_Character()
 {
@@ -50,6 +52,7 @@ void AS_Character::BeginPlay()
 void AS_Character::CharInits()
 {
 	PickupNearActor = nullptr;
+	WeaponNearActor = nullptr;
 
 	GetCharacterMovement()->MaxWalkSpeed = 150 * MaxSpeed;
 
@@ -73,7 +76,7 @@ void AS_Character::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	//ACTIONS
-	InputComponent->BindAction("Pickup", IE_Pressed, this, &AS_Character::PickupItem);
+	InputComponent->BindAction("Pickup", IE_Pressed, this, &AS_Character::SetPickupType);
 	InputComponent->BindAction("DropItem", IE_Pressed, this, &AS_Character::DropSelectedItem);
 	InputComponent->BindAction("Item1", IE_Pressed, this, &AS_Character::SelectItem1);
 	InputComponent->BindAction("Item2", IE_Pressed, this, &AS_Character::SelectItem2);
@@ -111,8 +114,9 @@ void AS_Character::GetOverlappingItems()
 
 		else
 			PickupNearActor = nullptr;
+			WeaponNearActor = nullptr;
 
-		GLog->Log("ItemNearActor is now null (:");
+		GLog->Log("ItemNearActor is now null!");
 	}
 }
 
@@ -127,7 +131,23 @@ void AS_Character::BeginOverlap(AActor* OverlappedActor, AActor* OtherActor)
 void AS_Character::EndOverlap(AActor* OverlappedActor, AActor* OtherActor)
 {
 	PickupNearActor = nullptr;
+	WeaponNearActor = nullptr;
 	GLog->Log("UNOVER");
+}
+
+void AS_Character::SetPickupType()
+{
+	if (!PickupNearActor->bIsWeapon)
+	{
+		PickupItem();
+		return;
+	}
+
+
+	if (PickupNearActor->bIsWeapon)
+		PickupWeapon();
+
+	return;
 }
 
 
@@ -152,6 +172,7 @@ void AS_Character::PickupItem()
 			}
 
 			//Add the item to the first valid slot in the array
+			if (EmptySlot < MAX_INVENTORY_ITEMS)
 			ItemsInventory[EmptySlot] = ArrayItem; GLog->Log("+ item");
 
 			HidePickup(ArrayItem);
@@ -162,10 +183,48 @@ void AS_Character::PickupItem()
 
 			return;
 		}
+
 		else
 			GLog->Log("Can't carry any more items!");
 	}
 }
+
+void AS_Character::PickupWeapon()
+{
+	WeaponNearActor = Cast<AS_Weapon>(PickupNearActor);
+
+	if (WeaponNearActor)
+	{
+		//Find the first available slot
+		int32 EmptySlot = WeaponInventory.Find(nullptr);
+
+		AS_Weapon* ArrayItem = WeaponNearActor;
+
+		if (EmptySlot != INDEX_NONE)
+		{
+			for (int32 i = 0; i < MAX_INVENTORY_WEAPONS; ++i)
+			{
+				if (WeaponInventory[i] == WeaponNearActor)
+				{
+					GLog->Log("Can't carry this weapon");
+					return;
+				}
+			}
+
+			//Add the item to the first valid slot in the array
+			if(EmptySlot < MAX_INVENTORY_WEAPONS)
+			WeaponInventory[EmptySlot] = ArrayItem; GLog->Log("+ weapon");
+
+			WeaponNearActor = nullptr;
+
+			return;
+		}
+
+		else
+			GLog->Log("Can't carry any more items!");
+	}
+}
+
 
 void AS_Character::HoldItem(AS_Pickup* ItemIn)
 {
@@ -216,65 +275,44 @@ void AS_Character::DropSelectedItem()
 
 void AS_Character::SelectItem1()
 {
-	if (InHandsItem)
-		HidePickup(InHandsItem);
-
-	if (ItemsInventory[0])
-	{
-		InHandsItem = ItemsInventory[0];
-		HoldItem(InHandsItem);
-
-		GLog->Log("SLOT 1 SELECTED");
-		GLog->Log("ITEM: " + InHandsItem->GetName());
-	}
+	SelectItem(0);
 }
 
 
 
 void AS_Character::SelectItem2()
 {
-	if (InHandsItem)
-		HidePickup(InHandsItem);
-	if (ItemsInventory[1])
-	{
-		InHandsItem = ItemsInventory[1];
-
-		HoldItem(InHandsItem);
-
-		GLog->Log("SLOT 1 SELECTED");
-		GLog->Log("ITEM: " + InHandsItem->GetName());
-	}
+	SelectItem(1);
 }
 
 
 void AS_Character::SelectItem3()
 {
-	if (InHandsItem)
-		HidePickup(InHandsItem);
-	if (ItemsInventory[2])
-	{
-		InHandsItem = ItemsInventory[2];
-
-		HoldItem(InHandsItem);
-
-		GLog->Log("SLOT 1 SELECTED");
-		GLog->Log("ITEM: " + InHandsItem->GetName());
-	}
+	SelectItem(2);
 }
 
 
 void AS_Character::SelectItem4()
 {
-	if (InHandsItem)
-		HidePickup(InHandsItem);
+	SelectItem(3);
+}
 
-	if (ItemsInventory[3])
+
+void AS_Character::SelectItem(int32 ItemIndex)
+{
+	if (InHandsItem)
 	{
-		InHandsItem = ItemsInventory[3];
+		HidePickup(InHandsItem);
+		InHandsItem = nullptr;
+	}
+
+	if (ItemsInventory[ItemIndex])
+	{
+		InHandsItem = ItemsInventory[ItemIndex];
 
 		HoldItem(InHandsItem);
 
-		GLog->Log("SLOT 1 SELECTED");
+		UE_LOG(LogTemp, Warning, TEXT("INVENTORY SLOT = %d"), ItemIndex);
 		GLog->Log("ITEM: " + InHandsItem->GetName());
 	}
 }

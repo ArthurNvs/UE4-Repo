@@ -1,0 +1,15 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Projects).
+  Parsing headers for Apache_ShooterEditor
+    Running UnrealHeaderTool "D:\Projects\Apache_Shooter\Apache_Shooter.uproject" "D:\Projects\Apache_Shooter\Intermediate\Build\Win64\Apache_ShooterEditor\Development\Apache_ShooterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for Apache_ShooterEditor in 5,158061 seconds
+  Building Apache_ShooterEditor...
+  Using Visual Studio 2019 14.24.28315 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 12 processes...
+    [1/4] S_Character.cpp
+    [2/4] UE4Editor-Apache_Shooter-0037.lib
+       Creating library D:\Projects\Apache_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Apache_Shooter\UE4Editor-Apache_Shooter-0037.lib and object D:\Projects\Apache_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Apache_Shooter\UE4Editor-Apache_Shooter-0037.exp
+    [3/4] UE4Editor-Apache_Shooter-0037.dll
+       Creating library D:\Projects\Apache_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Apache_Shooter\UE4Editor-Apache_Shooter-0037.suppressed.lib and object D:\Projects\Apache_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Apache_Shooter\UE4Editor-Apache_Shooter-0037.suppressed.exp
+    [4/4] Apache_ShooterEditor.target
+  Total time in Parallel executor: 1,54 seconds
+  Total execution time: 7,32 seconds

@@ -1,0 +1,1828 @@
+﻿Log file open, 02/14/20 01:33:56
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Apache_Shooter
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.082279
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -3:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogHMD: Failed initializing OVRPlugin 1.40.0
+LogInit: Build: ++UE4+Release-4.24-CL-11100242
+LogInit: Engine Version: 4.24.2-11100242+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jan 24 2020 02:05:53
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: C:/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Engine.ini]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Engine.ini]
+[2020.02.14-04.33.57:398][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Engine.ini]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Engine.ini]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.14-04.33.57:398][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Engine.ini]
+[2020.02.14-04.33.57:398][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Engine.ini]
+[2020.02.14-04.33.57:402][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.14-04.33.57:402][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.02.14-04.33.57:403][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.02.14-04.33.57:403][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.14-04.33.57:403][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.14-04.33.57:405][  0]LogHAL: Display: Platform has ~ 16 GB [17019686912 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.14-04.33.57:405][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.14-04.33.57:405][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:405][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.14-04.33.57:405][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.14-04.33.57:405][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:405][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.14-04.33.57:405][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:405][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.14-04.33.57:405][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.14-04.33.57:405][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.14-04.33.57:405][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.14-04.33.57:405][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.14-04.33.57:405][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.14-04.33.57:405][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.14-04.33.57:405][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.14-04.33.57:405][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.14-04.33.57:405][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Scalability.ini]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.02.14-04.33.57:406][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.14-04.33.57:407][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.14-04.33.57:407][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.14-04.33.57:407][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Projects/Apache_Shooter/Saved/Config/Windows/Engine.ini]
+[2020.02.14-04.33.57:407][  0]LogInit: Computer: LAPTOP-RN6PMUIM
+[2020.02.14-04.33.57:407][  0]LogInit: User: Apache
+[2020.02.14-04.33.57:407][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.02.14-04.33.57:407][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.14-04.33.57:407][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.02.14-04.33.57:407][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.14-04.33.57:407][  0]LogMemory: Process Physical Memory: 108.63 MB used, 108.63 MB peak
+[2020.02.14-04.33.57:407][  0]LogMemory: Process Virtual Memory: 105.06 MB used, 105.06 MB peak
+[2020.02.14-04.33.57:407][  0]LogMemory: Physical Memory: 7778.57 MB used,  8452.67 MB free, 16231.24 MB total
+[2020.02.14-04.33.57:407][  0]LogMemory: Virtual Memory: 5200.63 MB used,  134212528.00 MB free, 134217728.00 MB total
+[2020.02.14-04.33.57:409][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.02.14-04.33.57:425][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.02.14-04.33.57:425][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.02.14-04.33.57:578][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.14-04.33.57:600][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.14-04.33.57:600][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.14-04.33.57:745][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2020.02.14-04.33.57:745][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.02.14-04.33.57:745][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.02.14-04.33.57:745][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.14-04.33.57:819][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2060' (Feature Level 11_0)
+[2020.02.14-04.33.57:819][  0]LogD3D11RHI:       5980/0/8115 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2020.02.14-04.33.57:831][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.02.14-04.33.57:831][  0]LogD3D11RHI:       128/0/8115 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.02.14-04.33.57:833][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.14-04.33.57:833][  0]LogD3D11RHI:       0/0/8115 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.14-04.33.57:833][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.14-04.33.57:867][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.14-04.33.57:867][  0]LogD3D11RHI:     GPU DeviceId: 0x1f11 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.14-04.33.57:867][  0]LogWindows: EnumDisplayDevices:
+[2020.02.14-04.33.57:867][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.02.14-04.33.57:868][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.02.14-04.33.57:868][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.02.14-04.33.57:868][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2060' (P:0 D:1)
+[2020.02.14-04.33.57:868][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.02.14-04.33.57:868][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.02.14-04.33.57:869][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2060' (P:0 D:0)
+[2020.02.14-04.33.57:869][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2020.02.14-04.33.57:869][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2060
+[2020.02.14-04.33.57:869][  0]LogD3D11RHI:   Driver Version: 442.19 (internal:26.21.14.4219, unified:442.19)
+[2020.02.14-04.33.57:869][  0]LogD3D11RHI:      Driver Date: 1-29-2020
+[2020.02.14-04.33.57:869][  0]LogRHI: Texture pool is 4186 MB (70% of 5980 MB)
+[2020.02.14-04.33.57:910][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.02.14-04.33.57:911][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.14-04.33.57:927][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.14-04.33.58:154][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.02.14-04.33.58:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.02.14-04.33.58:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.02.14-04.33.58:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.02.14-04.33.58:203][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.14-04.33.58:208][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.02.14-04.33.58:214][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.02.14-04.33.58:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.02.14-04.33.58:225][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.02.14-04.33.58:231][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.02.14-04.33.58:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.02.14-04.33.58:250][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.02.14-04.33.58:261][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.02.14-04.33.58:261][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.02.14-04.33.58:267][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.14-04.33.58:273][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.02.14-04.33.58:278][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.02.14-04.33.58:284][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.02.14-04.33.58:284][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.14-04.33.58:286][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.14-04.33.58:303][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (D:/Projects/Apache_Shooter/Intermediate/Shaders/WorkingDirectory/16024/).
+[2020.02.14-04.33.58:304][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Apache/AppData/Local/Temp/UnrealShaderWorkingDir/8A4340694BEE8500A1B7A296D42F3FE1/'.
+[2020.02.14-04.33.58:304][  0]LogXGEController: Cleaning working directory: C:/Users/Apache/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.02.14-04.33.58:304][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.14-04.33.58:304][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.14-04.33.58:304][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.14-04.33.58:903][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.14-04.33.58:968][  0]LogDerivedDataCache: Loaded boot cache 0.06s 81MB C:/Users/Apache/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.02.14-04.33.58:968][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Apache/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.02.14-04.33.58:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Projects/Apache_Shooter/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.14-04.33.58:968][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.14-04.33.58:968][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Projects/Apache_Shooter/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.14-04.33.58:968][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.14-04.33.58:977][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.14-04.33.58:977][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.14-04.33.58:977][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.14-04.33.58:978][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Apache/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.14-04.33.58:978][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.14-04.33.58:978][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.14-04.33.58:999][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.14-04.33.59:001][  0]LogSlate: Using FreeType 2.10.0
+[2020.02.14-04.33.59:002][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.14-04.33.59:041][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2020.02.14-04.33.59:270][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.14-04.33.59:397][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.14-04.33.59:397][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.14-04.33.59:397][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.14-04.33.59:397][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.14-04.33.59:397][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.14-04.33.59:408][  0]LogNetVersion: Apache_Shooter 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2241804728)
+[2020.02.14-04.34.00:201][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.032279 seconds
+[2020.02.14-04.34.00:207][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.02.14-04.34.00:207][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.02.14-04.34.00:207][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.14-04.34.00:509][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.14-04.34.00:511][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.14-04.34.00:554][  0]SourceControl: Source control is disabled
+[2020.02.14-04.34.00:554][  0]SourceControl: Source control is disabled
+[2020.02.14-04.34.00:555][  0]SourceControl: Source control is disabled
+[2020.02.14-04.34.00:556][  0]SourceControl: Source control is disabled
+[2020.02.14-04.34.00:556][  0]SourceControl: Source control is disabled
+[2020.02.14-04.34.00:612][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.14-04.34.00:618][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.02.14-04.34.00:618][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.02.14-04.34.00:683][  0]LogOcInput: OculusInput pre-init called
+[2020.02.14-04.34.01:172][  0]LogEngine: Initializing Engine...
+[2020.02.14-04.34.01:172][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2020.02.14-04.34.01:173][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.14-04.34.01:439][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.14-04.34.01:445][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.14-04.34.01:461][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.14-04.34.01:461][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.14-04.34.01:461][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.14-04.34.01:461][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.14-04.34.01:461][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.14-04.34.01:461][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.14-04.34.01:461][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.14-04.34.01:462][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.14-04.34.01:462][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.14-04.34.01:462][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.14-04.34.01:480][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.14-04.34.01:480][  0]LogAudioMixer: Display: Name: Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.34.01:480][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.02.14-04.34.01:480][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.14-04.34.01:480][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.14-04.34.01:480][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.14-04.34.01:480][  0]LogAudioMixer: Display: Channel Order:
+[2020.02.14-04.34.01:481][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.14-04.34.01:481][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.02.14-04.34.01:558][  0]LogAudioMixer: Display: Using Audio Device Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.34.01:566][  0]LogInit: FAudioDevice initialized.
+[2020.02.14-04.34.01:566][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.14-04.34.01:618][  0]LogDerivedDataCache: Saved boot cache 0.05s 81MB C:/Users/Apache/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.02.14-04.34.01:622][  0]LogInit: Texture streaming: Enabled
+[2020.02.14-04.34.01:631][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.14-04.34.01:631][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={0EC05F1E-4527-564F-FB4A-9CBE86B9EAEA}
+[2020.02.14-04.34.01:631][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.02.14-04.34.01:632][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.02.14-04.34.01:668][  0]LogInit: Transaction tracking system initialized
+[2020.02.14-04.34.01:676][  0]BlueprintLog: New page: Editor Load
+[2020.02.14-04.34.01:698][  0]LocalizationService: Localization service is disabled
+[2020.02.14-04.34.02:128][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Apache_Shooter/Content/' took 0.00s
+[2020.02.14-04.34.02:128][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.14-04.34.02:128][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.14-04.34.02:631][  0]SourceControl: Source control is disabled
+[2020.02.14-04.34.02:631][  0]Cmd: MAP LOAD FILE="D:/Projects/Apache_Shooter/Content/Maps/Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.14-04.34.02:631][  0]LightingResults: New page: Lighting Build
+[2020.02.14-04.34.02:632][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.02.14-04.34.02:632][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.34.02:632][  0]MapCheck: New page: Map Check
+[2020.02.14-04.34.02:632][  0]LightingResults: New page: Lighting Build
+[2020.02.14-04.34.02:657][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2020.02.14-04.34.02:763][  0]LogAIModule: Creating AISystem for world Test
+[2020.02.14-04.34.02:768][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.14-04.34.02:797][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.02.14-04.34.02:797][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.14-04.34.02:797][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.089ms to complete.
+[2020.02.14-04.34.02:797][  0]LogFileHelpers: Loading map 'Test' took 0.167
+[2020.02.14-04.34.02:911][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.34.02:916][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.34.02:921][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.34.02:926][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.34.02:929][  0]LogCollectionManager: Loaded 0 collections in 0.001433 seconds
+[2020.02.14-04.34.02:939][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Apache_Shooter/Saved/Collections/' took 0.00s
+[2020.02.14-04.34.02:939][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Apache_Shooter/Content/Developers/Apache/Collections/' took 0.00s
+[2020.02.14-04.34.02:939][  0]LogFileCache: Scanning file cache for directory 'D:/Projects/Apache_Shooter/Content/Collections/' took 0.00s
+[2020.02.14-04.34.02:939][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 3020 classes and 720 folders.
+[2020.02.14-04.34.02:942][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.02.14-04.34.02:979][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.02.14-04.34.02:982][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2020.02.14-04.34.03:059][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.14-04.34.03:061][  0]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.14-04.34.03:061][  0]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.14-04.34.03:062][  0]LogSlate: Took 0.000072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.02.14-04.34.03:150][  0]LogRenderer: Reallocating scene render targets to support 1152x660 Format 10 NumSamples 1 (Frame:1).
+[2020.02.14-04.34.03:272][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.14-04.34.03:272][  0]LogLoad: (Engine Initialization) Total time: 7.37 seconds
+[2020.02.14-04.34.03:272][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.14-04.34.03:327][  0]LogAssetRegistry: Asset discovery search completed in 4.2856 seconds
+[2020.02.14-04.34.03:330][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2020.02.14-04.34.03:331][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.14-04.34.03:344][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.14-04.34.53:951][151]LogHotReload: New module detected: UE4Editor-Apache_Shooter-0016.dll
+[2020.02.14-04.34.54:302][153]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.14-04.34.54:315][153]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.14-04.34.54:356][153]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.02.14-04.34.54:389][153]LogContentBrowser: Native class hierarchy updated for 'Apache_Shooter' in 0.0005 seconds. Added 5 classes and 3 folders.
+[2020.02.14-04.34.54:391][153]Display: HotReload successful (18 functions remapped  0 scriptstructs remapped)
+[2020.02.14-04.34.54:452][153]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.02.14-04.34.54:462][153]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 3022 classes and 723 folders.
+[2020.02.14-04.34.54:470][153]Display: HotReload took  0.2s.
+[2020.02.14-04.34.56:237][186]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.14-04.34.56:248][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.14-04.34.56:248][186]PIE: New page: PIE session: Test (Feb 13, 2020, 11:34:56 PM)
+[2020.02.14-04.34.56:249][186]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.02.14-04.34.56:250][186]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.02.14-04.34.56:250][186]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.34.56:252][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002254s)
+[2020.02.14-04.34.56:253][186]LogAIModule: Creating AISystem for world Test
+[2020.02.14-04.34.56:253][186]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2020.02.14-04.34.56:253][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.003357s)
+[2020.02.14-04.34.56:280][186]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2020.02.14-04.34.56:281][186]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.14-04.34.56:281][186]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.14-04.34.56:281][186]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.14-04.34.56:281][186]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.14-04.34.56:281][186]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.14-04.34.56:281][186]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.14-04.34.56:281][186]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.14-04.34.56:281][186]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.14-04.34.56:281][186]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.14-04.34.56:281][186]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.14-04.34.56:292][186]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.14-04.34.56:292][186]LogAudioMixer: Display: Name: Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.34.56:292][186]LogAudioMixer: Display: Is Default: Yes
+[2020.02.14-04.34.56:292][186]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.14-04.34.56:292][186]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.14-04.34.56:292][186]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.14-04.34.56:292][186]LogAudioMixer: Display: Channel Order:
+[2020.02.14-04.34.56:292][186]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.14-04.34.56:292][186]LogAudioMixer: Display: 1: FrontRight
+[2020.02.14-04.34.56:363][186]LogAudioMixer: Display: Using Audio Device Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.34.56:364][186]LogInit: FAudioDevice initialized.
+[2020.02.14-04.34.56:424][186]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.02.14-04.34.56:426][186]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2020.02.14-01.34.56
+[2020.02.14-04.34.56:426][186]LogWorld: Bringing up level for play took: 0.000781
+[2020.02.14-04.34.56:426][186]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.02.14-04.34.56:443][186]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.02.14-04.34.56:445][186]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test 0.681
+[2020.02.14-04.34.57:903][272]ItemNearActor is now null!
+[2020.02.14-04.34.57:904][272]overlapped
+[2020.02.14-04.34.57:984][277]+ item
+[2020.02.14-04.34.57:984][277]UNOVER
+[2020.02.14-04.34.57:984][277]done!
+[2020.02.14-04.34.58:234][292]ItemNearActor is now null!
+[2020.02.14-04.34.58:234][292]overlapped
+[2020.02.14-04.34.58:351][299]+ item
+[2020.02.14-04.34.58:351][299]UNOVER
+[2020.02.14-04.34.58:351][299]done!
+[2020.02.14-04.34.58:584][313]ItemNearActor is now null!
+[2020.02.14-04.34.58:584][313]overlapped
+[2020.02.14-04.34.58:717][321]+ item
+[2020.02.14-04.34.58:717][321]UNOVER
+[2020.02.14-04.34.58:717][321]done!
+[2020.02.14-04.34.58:885][331]ItemNearActor is now null!
+[2020.02.14-04.34.58:885][331]overlapped
+[2020.02.14-04.34.59:018][339]+ item
+[2020.02.14-04.34.59:018][339]UNOVER
+[2020.02.14-04.34.59:018][339]done!
+[2020.02.14-04.34.59:251][353]ItemNearActor is now null!
+[2020.02.14-04.34.59:251][353]overlapped
+[2020.02.14-04.34.59:385][361]Can't carry any more items!
+[2020.02.14-04.34.59:619][375]UNOVER
+[2020.02.14-04.34.59:701][380]ItemNearActor is now null!
+[2020.02.14-04.34.59:701][380]overlapped
+[2020.02.14-04.34.59:818][387]Can't carry any more items!
+[2020.02.14-04.35.00:084][403]Can't carry any more items!
+[2020.02.14-04.35.00:317][417]UNOVER
+[2020.02.14-04.35.00:468][426]ItemNearActor is now null!
+[2020.02.14-04.35.00:468][426]overlapped
+[2020.02.14-04.35.00:651][437]Can't carry any more items!
+[2020.02.14-04.35.01:117][465]Can't carry any more items!
+[2020.02.14-04.35.02:251][533]Can't carry any more items!
+[2020.02.14-04.35.02:335][538]UNOVER
+[2020.02.14-04.35.02:435][544]ItemNearActor is now null!
+[2020.02.14-04.35.02:436][544]overlapped
+[2020.02.14-04.35.02:584][553]Can't carry any more items!
+[2020.02.14-04.35.02:802][566]UNOVER
+[2020.02.14-04.35.02:884][571]ItemNearActor is now null!
+[2020.02.14-04.35.02:884][571]overlapped
+[2020.02.14-04.35.03:018][579]Can't carry any more items!
+[2020.02.14-04.35.03:252][593]UNOVER
+[2020.02.14-04.35.03:918][633]ItemNearActor is now null!
+[2020.02.14-04.35.03:918][633]overlapped
+[2020.02.14-04.35.04:035][640]Can't carry any more items!
+[2020.02.14-04.35.04:268][654]UNOVER
+[2020.02.14-04.35.04:352][659]ItemNearActor is now null!
+[2020.02.14-04.35.04:352][659]overlapped
+[2020.02.14-04.35.04:518][669]Can't carry any more items!
+[2020.02.14-04.35.04:718][681]UNOVER
+[2020.02.14-04.35.04:818][687]ItemNearActor is now null!
+[2020.02.14-04.35.04:818][687]overlapped
+[2020.02.14-04.35.04:935][694]Can't carry any more items!
+[2020.02.14-04.35.05:202][710]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.35.05:202][710]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.35.05:202][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.35.05:202][710]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.35.05:202][710]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.35.05:202][710]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2020.02.14-04.35.05:203][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.35.05:211][710]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.14-04.35.05:213][710]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.35.05:239][710]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.35.05:242][710]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.35.05:245][710]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.02.14-04.35.05:312][714]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.02.14-04.36.40:610][ 43]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.02.14-04.38.24:098][351]LogHotReload: New module detected: UE4Editor-Apache_Shooter-0017.dll
+[2020.02.14-04.38.24:784][354]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.14-04.38.24:832][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2020.02.14-04.38.24:855][354]LogClass: Could not find existing class S_Character in package /Script/Apache_Shooter for HotReload, assuming new class
+[2020.02.14-04.38.24:855][354]LogClass: Function BeginOverlap is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function CharInits is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function DropSelectedItem is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function EndOverlap is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function GetOverlappingItems is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function HidePickup is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function HoldItem is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function MoveForward is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function MoveRight is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function PickupItem is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function PickupWeapon is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function SelectItem is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function SelectItem1 is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function SelectItem2 is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function SelectItem3 is new.
+[2020.02.14-04.38.24:855][354]LogClass: Function SelectItem4 is new.
+[2020.02.14-04.38.24:864][354]LogHotReload: Re-instancing S_Character after hot-reload.
+[2020.02.14-04.38.24:949][354]LogContentBrowser: Native class hierarchy updated for 'Apache_Shooter' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2020.02.14-04.38.24:952][354]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.02.14-04.38.25:004][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2020.02.14-04.38.25:014][354]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 3022 classes and 723 folders.
+[2020.02.14-04.38.25:023][354]Display: HotReload took  0.2s.
+[2020.02.14-04.38.27:369][409]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.14-04.38.27:381][409]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.14-04.38.27:381][409]PIE: New page: PIE session: Test (Feb 13, 2020, 11:38:27 PM)
+[2020.02.14-04.38.27:381][409]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.38.27:383][409]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002385s)
+[2020.02.14-04.38.27:384][409]LogAIModule: Creating AISystem for world Test
+[2020.02.14-04.38.27:384][409]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2020.02.14-04.38.27:384][409]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.003483s)
+[2020.02.14-04.38.27:412][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.02.14-04.38.27:413][409]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.14-04.38.27:413][409]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.14-04.38.27:413][409]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.14-04.38.27:413][409]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.14-04.38.27:413][409]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.14-04.38.27:413][409]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.14-04.38.27:413][409]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.14-04.38.27:413][409]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.14-04.38.27:413][409]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.14-04.38.27:413][409]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.14-04.38.27:424][409]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.14-04.38.27:424][409]LogAudioMixer: Display: Name: Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.38.27:424][409]LogAudioMixer: Display: Is Default: Yes
+[2020.02.14-04.38.27:424][409]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.14-04.38.27:424][409]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.14-04.38.27:424][409]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.14-04.38.27:424][409]LogAudioMixer: Display: Channel Order:
+[2020.02.14-04.38.27:424][409]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.14-04.38.27:424][409]LogAudioMixer: Display: 1: FrontRight
+[2020.02.14-04.38.27:496][409]LogAudioMixer: Display: Using Audio Device Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.38.27:498][409]LogInit: FAudioDevice initialized.
+[2020.02.14-04.38.27:504][409]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.02.14-04.38.27:506][409]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2020.02.14-01.38.27
+[2020.02.14-04.38.27:506][409]LogWorld: Bringing up level for play took: 0.000797
+[2020.02.14-04.38.27:506][409]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.02.14-04.38.27:509][409]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test -0.255
+[2020.02.14-04.38.30:824][601]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.14-04.38.36:898][947]ItemNearActor is now null!
+[2020.02.14-04.38.36:898][947]overlapped
+[2020.02.14-04.38.37:165][963]+ item
+[2020.02.14-04.38.37:165][963]UNOVER
+[2020.02.14-04.38.37:165][963]done!
+[2020.02.14-04.38.37:716][996]ItemNearActor is now null!
+[2020.02.14-04.38.37:716][996]overlapped
+[2020.02.14-04.38.37:749][998]+ item
+[2020.02.14-04.38.37:749][998]UNOVER
+[2020.02.14-04.38.37:750][998]done!
+[2020.02.14-04.38.38:082][ 18]ItemNearActor is now null!
+[2020.02.14-04.38.38:082][ 18]overlapped
+[2020.02.14-04.38.38:203][ 25]+ item
+[2020.02.14-04.38.38:203][ 25]UNOVER
+[2020.02.14-04.38.38:203][ 25]done!
+[2020.02.14-04.38.38:371][ 35]ItemNearActor is now null!
+[2020.02.14-04.38.38:371][ 35]overlapped
+[2020.02.14-04.38.38:503][ 43]+ item
+[2020.02.14-04.38.38:503][ 43]UNOVER
+[2020.02.14-04.38.38:503][ 43]done!
+[2020.02.14-04.38.38:737][ 57]ItemNearActor is now null!
+[2020.02.14-04.38.38:737][ 57]overlapped
+[2020.02.14-04.38.38:854][ 64]Can't carry any more items!
+[2020.02.14-04.38.39:070][ 77]UNOVER
+[2020.02.14-04.38.39:187][ 84]ItemNearActor is now null!
+[2020.02.14-04.38.39:187][ 84]overlapped
+[2020.02.14-04.38.39:270][ 89]Can't carry any more items!
+[2020.02.14-04.38.39:520][104]UNOVER
+[2020.02.14-04.38.39:654][112]ItemNearActor is now null!
+[2020.02.14-04.38.39:654][112]overlapped
+[2020.02.14-04.38.39:921][128]Can't carry any more items!
+[2020.02.14-04.38.40:089][138]Can't carry any more items!
+[2020.02.14-04.38.40:338][153]Can't carry any more items!
+[2020.02.14-04.38.40:887][186]UNOVER
+[2020.02.14-04.38.41:037][195]ItemNearActor is now null!
+[2020.02.14-04.38.41:037][195]overlapped
+[2020.02.14-04.38.41:154][202]Can't carry any more items!
+[2020.02.14-04.38.41:354][214]UNOVER
+[2020.02.14-04.38.41:470][221]ItemNearActor is now null!
+[2020.02.14-04.38.41:471][221]overlapped
+[2020.02.14-04.38.41:587][228]Can't carry any more items!
+[2020.02.14-04.38.41:803][241]UNOVER
+[2020.02.14-04.38.43:904][367]ItemNearActor is now null!
+[2020.02.14-04.38.43:904][367]overlapped
+[2020.02.14-04.38.45:754][478]UNOVER
+[2020.02.14-04.38.47:804][601]ItemNearActor is now null!
+[2020.02.14-04.38.47:804][601]overlapped
+[2020.02.14-04.38.49:205][685]UNOVER
+[2020.02.14-04.38.50:554][766]ItemNearActor is now null!
+[2020.02.14-04.38.50:554][766]overlapped
+[2020.02.14-04.38.50:837][783]UNOVER
+[2020.02.14-04.38.51:304][811]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.38.51:304][811]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.38.51:305][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.38.51:305][811]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.38.51:305][811]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.38.51:305][811]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2020.02.14-04.38.51:305][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.38.51:314][811]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.14-04.38.51:316][811]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.38.51:342][811]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.38.51:345][811]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.38.51:348][811]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.02.14-04.38.51:418][815]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.02.14-04.39.49:152][ 64]LogHotReload: New module detected: UE4Editor-Apache_Shooter-0018.dll
+[2020.02.14-04.39.49:832][ 67]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.14-04.39.49:880][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.02.14-04.39.49:904][ 67]LogContentBrowser: Native class hierarchy updated for 'Apache_Shooter' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2020.02.14-04.39.49:907][ 67]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2020.02.14-04.39.49:957][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2020.02.14-04.39.49:967][ 67]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 3022 classes and 723 folders.
+[2020.02.14-04.39.49:976][ 67]Display: HotReload took  0.1s.
+[2020.02.14-04.39.51:599][110]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.14-04.39.51:608][110]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.14-04.39.51:608][110]PIE: New page: PIE session: Test (Feb 13, 2020, 11:39:51 PM)
+[2020.02.14-04.39.51:608][110]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.39.51:610][110]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002156s)
+[2020.02.14-04.39.51:611][110]LogAIModule: Creating AISystem for world Test
+[2020.02.14-04.39.51:611][110]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2020.02.14-04.39.51:611][110]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.003112s)
+[2020.02.14-04.39.51:639][110]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.02.14-04.39.51:639][110]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.14-04.39.51:639][110]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.14-04.39.51:639][110]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.14-04.39.51:639][110]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.14-04.39.51:639][110]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.14-04.39.51:639][110]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.14-04.39.51:639][110]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.14-04.39.51:639][110]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.14-04.39.51:640][110]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.14-04.39.51:640][110]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.14-04.39.51:650][110]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.14-04.39.51:650][110]LogAudioMixer: Display: Name: Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.39.51:650][110]LogAudioMixer: Display: Is Default: Yes
+[2020.02.14-04.39.51:650][110]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.14-04.39.51:650][110]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.14-04.39.51:650][110]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.14-04.39.51:650][110]LogAudioMixer: Display: Channel Order:
+[2020.02.14-04.39.51:650][110]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.14-04.39.51:650][110]LogAudioMixer: Display: 1: FrontRight
+[2020.02.14-04.39.51:724][110]LogAudioMixer: Display: Using Audio Device Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.39.51:725][110]LogInit: FAudioDevice initialized.
+[2020.02.14-04.39.51:735][110]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.02.14-04.39.51:736][110]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2020.02.14-01.39.51
+[2020.02.14-04.39.51:737][110]LogWorld: Bringing up level for play took: 0.000790
+[2020.02.14-04.39.51:737][110]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.02.14-04.39.51:739][110]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test -0.025
+[2020.02.14-04.39.52:885][178]ItemNearActor is now null!
+[2020.02.14-04.39.52:885][178]overlapped
+[2020.02.14-04.39.52:918][180]+ item
+[2020.02.14-04.39.52:918][180]UNOVER
+[2020.02.14-04.39.52:918][180]done!
+[2020.02.14-04.39.53:218][198]ItemNearActor is now null!
+[2020.02.14-04.39.53:218][198]overlapped
+[2020.02.14-04.39.53:370][207]+ item
+[2020.02.14-04.39.53:370][207]UNOVER
+[2020.02.14-04.39.53:370][207]done!
+[2020.02.14-04.39.53:568][219]ItemNearActor is now null!
+[2020.02.14-04.39.53:568][219]overlapped
+[2020.02.14-04.39.53:685][226]+ item
+[2020.02.14-04.39.53:685][226]UNOVER
+[2020.02.14-04.39.53:685][226]done!
+[2020.02.14-04.39.53:869][237]ItemNearActor is now null!
+[2020.02.14-04.39.53:869][237]overlapped
+[2020.02.14-04.39.54:001][245]+ item
+[2020.02.14-04.39.54:001][245]UNOVER
+[2020.02.14-04.39.54:001][245]done!
+[2020.02.14-04.39.54:235][259]ItemNearActor is now null!
+[2020.02.14-04.39.54:235][259]overlapped
+[2020.02.14-04.39.54:368][267]Can't carry any more items!
+[2020.02.14-04.39.54:534][277]Can't carry any more items!
+[2020.02.14-04.39.54:602][281]UNOVER
+[2020.02.14-04.39.54:687][286]ItemNearActor is now null!
+[2020.02.14-04.39.54:687][286]overlapped
+[2020.02.14-04.39.54:851][296]Can't carry any more items!
+[2020.02.14-04.39.55:002][305]Can't carry any more items!
+[2020.02.14-04.39.55:035][307]UNOVER
+[2020.02.14-04.39.55:153][314]ItemNearActor is now null!
+[2020.02.14-04.39.55:153][314]overlapped
+[2020.02.14-04.39.55:420][330]UNOVER
+[2020.02.14-04.39.57:171][435]ItemNearActor is now null!
+[2020.02.14-04.39.57:171][435]overlapped
+[2020.02.14-04.39.57:171][435]item dropped
+[2020.02.14-04.39.57:171][435]UNOVER
+[2020.02.14-04.39.57:171][435]ItemNearActor is now null!
+[2020.02.14-04.39.57:171][435]overlapped
+[2020.02.14-04.39.57:187][436]UNOVER
+[2020.02.14-04.39.57:187][436]ItemNearActor is now null!
+[2020.02.14-04.39.57:187][436]overlapped
+[2020.02.14-04.39.57:202][437]UNOVER
+[2020.02.14-04.39.57:203][437]ItemNearActor is now null!
+[2020.02.14-04.39.57:203][437]overlapped
+[2020.02.14-04.39.57:219][438]UNOVER
+[2020.02.14-04.39.57:219][438]ItemNearActor is now null!
+[2020.02.14-04.39.57:219][438]overlapped
+[2020.02.14-04.39.57:235][439]UNOVER
+[2020.02.14-04.39.57:236][439]ItemNearActor is now null!
+[2020.02.14-04.39.57:236][439]overlapped
+[2020.02.14-04.39.57:252][440]UNOVER
+[2020.02.14-04.39.57:252][440]ItemNearActor is now null!
+[2020.02.14-04.39.57:252][440]overlapped
+[2020.02.14-04.39.57:270][441]UNOVER
+[2020.02.14-04.39.57:270][441]ItemNearActor is now null!
+[2020.02.14-04.39.57:270][441]overlapped
+[2020.02.14-04.39.57:285][442]UNOVER
+[2020.02.14-04.39.57:286][442]ItemNearActor is now null!
+[2020.02.14-04.39.57:286][442]overlapped
+[2020.02.14-04.39.57:302][443]UNOVER
+[2020.02.14-04.39.57:302][443]ItemNearActor is now null!
+[2020.02.14-04.39.57:302][443]overlapped
+[2020.02.14-04.39.57:319][444]UNOVER
+[2020.02.14-04.39.57:319][444]ItemNearActor is now null!
+[2020.02.14-04.39.57:319][444]overlapped
+[2020.02.14-04.39.57:335][445]UNOVER
+[2020.02.14-04.39.57:336][445]ItemNearActor is now null!
+[2020.02.14-04.39.57:336][445]overlapped
+[2020.02.14-04.39.57:354][446]UNOVER
+[2020.02.14-04.39.57:354][446]ItemNearActor is now null!
+[2020.02.14-04.39.57:354][446]overlapped
+[2020.02.14-04.39.57:369][447]UNOVER
+[2020.02.14-04.39.58:802][533]ItemNearActor is now null!
+[2020.02.14-04.39.58:802][533]overlapped
+[2020.02.14-04.40.05:538][921]UNOVER
+[2020.02.14-04.40.06:055][952]ItemNearActor is now null!
+[2020.02.14-04.40.06:055][952]overlapped
+[2020.02.14-04.40.06:605][985]UNOVER
+[2020.02.14-04.40.07:455][ 36]ItemNearActor is now null!
+[2020.02.14-04.40.07:455][ 36]overlapped
+[2020.02.14-04.40.09:108][135]UNOVER
+[2020.02.14-04.40.09:756][174]ItemNearActor is now null!
+[2020.02.14-04.40.09:756][174]overlapped
+[2020.02.14-04.40.09:791][176]+ item
+[2020.02.14-04.40.09:791][176]UNOVER
+[2020.02.14-04.40.09:791][176]done!
+[2020.02.14-04.40.10:140][197]ItemNearActor is now null!
+[2020.02.14-04.40.10:140][197]overlapped
+[2020.02.14-04.40.10:140][197]item dropped
+[2020.02.14-04.40.10:191][200]UNOVER
+[2020.02.14-04.40.10:207][201]ItemNearActor is now null!
+[2020.02.14-04.40.10:207][201]overlapped
+[2020.02.14-04.40.10:207][201]UNOVER
+[2020.02.14-04.40.10:223][202]ItemNearActor is now null!
+[2020.02.14-04.40.10:223][202]overlapped
+[2020.02.14-04.40.10:224][202]UNOVER
+[2020.02.14-04.40.10:240][203]ItemNearActor is now null!
+[2020.02.14-04.40.10:240][203]overlapped
+[2020.02.14-04.40.10:240][203]UNOVER
+[2020.02.14-04.40.10:257][204]ItemNearActor is now null!
+[2020.02.14-04.40.10:257][204]overlapped
+[2020.02.14-04.40.10:257][204]UNOVER
+[2020.02.14-04.40.12:558][342]ItemNearActor is now null!
+[2020.02.14-04.40.12:558][342]overlapped
+[2020.02.14-04.40.12:692][350]+ item
+[2020.02.14-04.40.12:692][350]UNOVER
+[2020.02.14-04.40.12:692][350]done!
+[2020.02.14-04.40.13:125][376]ItemNearActor is now null!
+[2020.02.14-04.40.13:125][376]overlapped
+[2020.02.14-04.40.13:125][376]item dropped
+[2020.02.14-04.40.13:125][376]UNOVER
+[2020.02.14-04.40.13:126][376]ItemNearActor is now null!
+[2020.02.14-04.40.13:126][376]overlapped
+[2020.02.14-04.40.13:142][377]UNOVER
+[2020.02.14-04.40.13:142][377]ItemNearActor is now null!
+[2020.02.14-04.40.13:142][377]overlapped
+[2020.02.14-04.40.13:158][378]UNOVER
+[2020.02.14-04.40.13:159][378]ItemNearActor is now null!
+[2020.02.14-04.40.13:159][378]overlapped
+[2020.02.14-04.40.13:175][379]UNOVER
+[2020.02.14-04.40.13:175][379]ItemNearActor is now null!
+[2020.02.14-04.40.13:175][379]overlapped
+[2020.02.14-04.40.13:192][380]UNOVER
+[2020.02.14-04.40.13:192][380]ItemNearActor is now null!
+[2020.02.14-04.40.13:192][380]overlapped
+[2020.02.14-04.40.13:208][381]UNOVER
+[2020.02.14-04.40.13:208][381]ItemNearActor is now null!
+[2020.02.14-04.40.13:208][381]overlapped
+[2020.02.14-04.40.13:225][382]UNOVER
+[2020.02.14-04.40.13:225][382]ItemNearActor is now null!
+[2020.02.14-04.40.13:225][382]overlapped
+[2020.02.14-04.40.13:242][383]UNOVER
+[2020.02.14-04.40.13:243][383]ItemNearActor is now null!
+[2020.02.14-04.40.13:243][383]overlapped
+[2020.02.14-04.40.13:259][384]UNOVER
+[2020.02.14-04.40.13:259][384]ItemNearActor is now null!
+[2020.02.14-04.40.13:259][384]overlapped
+[2020.02.14-04.40.13:275][385]UNOVER
+[2020.02.14-04.40.13:276][385]ItemNearActor is now null!
+[2020.02.14-04.40.13:276][385]overlapped
+[2020.02.14-04.40.13:292][386]UNOVER
+[2020.02.14-04.40.13:292][386]ItemNearActor is now null!
+[2020.02.14-04.40.13:292][386]overlapped
+[2020.02.14-04.40.13:308][387]UNOVER
+[2020.02.14-04.40.13:309][387]ItemNearActor is now null!
+[2020.02.14-04.40.13:309][387]overlapped
+[2020.02.14-04.40.13:325][388]UNOVER
+[2020.02.14-04.40.13:325][388]ItemNearActor is now null!
+[2020.02.14-04.40.13:325][388]overlapped
+[2020.02.14-04.40.13:342][389]UNOVER
+[2020.02.14-04.40.13:342][389]ItemNearActor is now null!
+[2020.02.14-04.40.13:342][389]overlapped
+[2020.02.14-04.40.13:358][390]UNOVER
+[2020.02.14-04.40.13:359][390]ItemNearActor is now null!
+[2020.02.14-04.40.13:359][390]overlapped
+[2020.02.14-04.40.13:375][391]UNOVER
+[2020.02.14-04.40.13:375][391]ItemNearActor is now null!
+[2020.02.14-04.40.13:375][391]overlapped
+[2020.02.14-04.40.13:391][392]UNOVER
+[2020.02.14-04.40.13:391][392]ItemNearActor is now null!
+[2020.02.14-04.40.13:391][392]overlapped
+[2020.02.14-04.40.13:408][393]UNOVER
+[2020.02.14-04.40.13:408][393]ItemNearActor is now null!
+[2020.02.14-04.40.13:408][393]overlapped
+[2020.02.14-04.40.13:424][394]UNOVER
+[2020.02.14-04.40.13:425][394]ItemNearActor is now null!
+[2020.02.14-04.40.13:425][394]overlapped
+[2020.02.14-04.40.13:441][395]UNOVER
+[2020.02.14-04.40.13:441][395]ItemNearActor is now null!
+[2020.02.14-04.40.13:441][395]overlapped
+[2020.02.14-04.40.13:458][396]UNOVER
+[2020.02.14-04.40.13:458][396]ItemNearActor is now null!
+[2020.02.14-04.40.13:458][396]overlapped
+[2020.02.14-04.40.13:474][397]UNOVER
+[2020.02.14-04.40.13:475][397]ItemNearActor is now null!
+[2020.02.14-04.40.13:475][397]overlapped
+[2020.02.14-04.40.13:491][398]UNOVER
+[2020.02.14-04.40.13:491][398]ItemNearActor is now null!
+[2020.02.14-04.40.13:491][398]overlapped
+[2020.02.14-04.40.13:509][399]UNOVER
+[2020.02.14-04.40.13:509][399]ItemNearActor is now null!
+[2020.02.14-04.40.13:509][399]overlapped
+[2020.02.14-04.40.13:525][400]UNOVER
+[2020.02.14-04.40.13:525][400]ItemNearActor is now null!
+[2020.02.14-04.40.13:525][400]overlapped
+[2020.02.14-04.40.13:543][401]UNOVER
+[2020.02.14-04.40.13:543][401]ItemNearActor is now null!
+[2020.02.14-04.40.13:543][401]overlapped
+[2020.02.14-04.40.13:559][402]UNOVER
+[2020.02.14-04.40.13:560][402]ItemNearActor is now null!
+[2020.02.14-04.40.13:560][402]overlapped
+[2020.02.14-04.40.13:575][403]UNOVER
+[2020.02.14-04.40.13:576][403]ItemNearActor is now null!
+[2020.02.14-04.40.13:576][403]overlapped
+[2020.02.14-04.40.13:592][404]UNOVER
+[2020.02.14-04.40.13:592][404]ItemNearActor is now null!
+[2020.02.14-04.40.13:592][404]overlapped
+[2020.02.14-04.40.13:608][405]UNOVER
+[2020.02.14-04.40.14:259][444]ItemNearActor is now null!
+[2020.02.14-04.40.14:259][444]overlapped
+[2020.02.14-04.40.14:326][448]+ item
+[2020.02.14-04.40.14:326][448]UNOVER
+[2020.02.14-04.40.14:326][448]done!
+[2020.02.14-04.40.15:108][495]ItemNearActor is now null!
+[2020.02.14-04.40.15:108][495]overlapped
+[2020.02.14-04.40.15:109][495]item dropped
+[2020.02.14-04.40.15:109][495]UNOVER
+[2020.02.14-04.40.19:441][755]ItemNearActor is now null!
+[2020.02.14-04.40.19:441][755]overlapped
+[2020.02.14-04.40.19:858][780]+ item
+[2020.02.14-04.40.19:859][780]UNOVER
+[2020.02.14-04.40.19:859][780]done!
+[2020.02.14-04.40.20:792][835]ItemNearActor is now null!
+[2020.02.14-04.40.20:792][835]overlapped
+[2020.02.14-04.40.20:792][835]item dropped
+[2020.02.14-04.40.21:709][890]+ item
+[2020.02.14-04.40.21:709][890]UNOVER
+[2020.02.14-04.40.21:709][890]done!
+[2020.02.14-04.40.22:442][934]ItemNearActor is now null!
+[2020.02.14-04.40.22:442][934]overlapped
+[2020.02.14-04.40.22:442][934]item dropped
+[2020.02.14-04.40.22:442][934]UNOVER
+[2020.02.14-04.40.23:442][994]ItemNearActor is now null!
+[2020.02.14-04.40.23:442][994]overlapped
+[2020.02.14-04.40.23:642][  6]+ item
+[2020.02.14-04.40.23:642][  6]UNOVER
+[2020.02.14-04.40.23:642][  6]done!
+[2020.02.14-04.40.24:459][ 55]ItemNearActor is now null!
+[2020.02.14-04.40.24:459][ 55]overlapped
+[2020.02.14-04.40.24:459][ 55]item dropped
+[2020.02.14-04.40.24:460][ 55]UNOVER
+[2020.02.14-04.40.25:658][127]ItemNearActor is now null!
+[2020.02.14-04.40.25:658][127]overlapped
+[2020.02.14-04.40.25:808][136]+ item
+[2020.02.14-04.40.25:809][136]UNOVER
+[2020.02.14-04.40.25:809][136]done!
+[2020.02.14-04.40.26:594][183]ItemNearActor is now null!
+[2020.02.14-04.40.26:594][183]overlapped
+[2020.02.14-04.40.26:594][183]item dropped
+[2020.02.14-04.40.26:594][183]UNOVER
+[2020.02.14-04.40.35:346][708]ItemNearActor is now null!
+[2020.02.14-04.40.35:346][708]overlapped
+[2020.02.14-04.40.36:678][788]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.40.36:678][788]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.40.36:678][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.40.36:679][788]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.40.36:679][788]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.40.36:679][788]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2020.02.14-04.40.36:679][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.40.36:683][788]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.14-04.40.36:686][788]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.40.36:712][788]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.40.36:715][788]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.40.36:717][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.02.14-04.40.36:790][791]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.02.14-04.40.53:317][902]LogHotReload: New module detected: UE4Editor-Apache_Shooter-0019.dll
+[2020.02.14-04.40.54:002][905]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.14-04.40.54:052][905]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2020.02.14-04.40.54:078][905]LogContentBrowser: Native class hierarchy updated for 'Apache_Shooter' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2020.02.14-04.40.54:080][905]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2020.02.14-04.40.54:131][905]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.02.14-04.40.54:141][905]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 3022 classes and 723 folders.
+[2020.02.14-04.40.54:151][905]Display: HotReload took  0.1s.
+[2020.02.14-04.40.56:409][969]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.14-04.40.56:421][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.14-04.40.56:421][969]PIE: New page: PIE session: Test (Feb 13, 2020, 11:40:56 PM)
+[2020.02.14-04.40.56:421][969]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.40.56:423][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002335s)
+[2020.02.14-04.40.56:424][969]LogAIModule: Creating AISystem for world Test
+[2020.02.14-04.40.56:424][969]LogPlayLevel: PIE: World Init took: (0.000954s)
+[2020.02.14-04.40.56:424][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.003394s)
+[2020.02.14-04.40.56:451][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.02.14-04.40.56:451][969]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.14-04.40.56:451][969]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.14-04.40.56:451][969]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.14-04.40.56:451][969]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.14-04.40.56:451][969]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.14-04.40.56:451][969]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.14-04.40.56:451][969]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.14-04.40.56:451][969]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.14-04.40.56:451][969]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.14-04.40.56:451][969]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.14-04.40.56:462][969]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.14-04.40.56:462][969]LogAudioMixer: Display: Name: Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.40.56:462][969]LogAudioMixer: Display: Is Default: Yes
+[2020.02.14-04.40.56:462][969]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.14-04.40.56:462][969]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.14-04.40.56:462][969]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.14-04.40.56:462][969]LogAudioMixer: Display: Channel Order:
+[2020.02.14-04.40.56:462][969]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.14-04.40.56:462][969]LogAudioMixer: Display: 1: FrontRight
+[2020.02.14-04.40.56:535][969]LogAudioMixer: Display: Using Audio Device Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.40.56:537][969]LogInit: FAudioDevice initialized.
+[2020.02.14-04.40.56:544][969]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.02.14-04.40.56:545][969]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2020.02.14-01.40.56
+[2020.02.14-04.40.56:545][969]LogWorld: Bringing up level for play took: 0.000779
+[2020.02.14-04.40.56:546][969]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.02.14-04.40.56:548][969]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test 0.784
+[2020.02.14-04.40.59:883][162]ItemNearActor is now null!
+[2020.02.14-04.40.59:883][162]overlapped
+[2020.02.14-04.41.01:466][257]UNOVER
+[2020.02.14-04.41.02:418][314]ItemNearActor is now null!
+[2020.02.14-04.41.02:418][314]overlapped
+[2020.02.14-04.41.03:368][371]UNOVER
+[2020.02.14-04.41.05:217][482]ItemNearActor is now null!
+[2020.02.14-04.41.05:217][482]overlapped
+[2020.02.14-04.41.07:936][645]UNOVER
+[2020.02.14-04.41.10:535][801]ItemNearActor is now null!
+[2020.02.14-04.41.10:535][801]overlapped
+[2020.02.14-04.41.11:751][874]UNOVER
+[2020.02.14-04.41.13:284][966]ItemNearActor is now null!
+[2020.02.14-04.41.13:284][966]overlapped
+[2020.02.14-04.41.14:334][ 29]UNOVER
+[2020.02.14-04.41.19:286][326]ItemNearActor is now null!
+[2020.02.14-04.41.19:286][326]overlapped
+[2020.02.14-04.41.19:622][346]UNOVER
+[2020.02.14-04.41.20:856][420]ItemNearActor is now null!
+[2020.02.14-04.41.20:856][420]overlapped
+[2020.02.14-04.41.21:190][440]UNOVER
+[2020.02.14-04.41.31:992][ 88]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.41.31:992][ 88]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.41.31:993][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.41.31:993][ 88]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.41.31:993][ 88]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.41.31:993][ 88]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2020.02.14-04.41.31:994][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.41.32:004][ 88]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.14-04.41.32:007][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.41.32:033][ 88]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.41.32:036][ 88]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.41.32:038][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.02.14-04.41.32:094][ 90]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.02.14-04.42.44:344][353]LogHotReload: New module detected: UE4Editor-Apache_Shooter-0020.dll
+[2020.02.14-04.42.45:032][356]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.14-04.42.45:081][356]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.02.14-04.42.45:104][356]LogContentBrowser: Native class hierarchy updated for 'Apache_Shooter' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2020.02.14-04.42.45:106][356]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2020.02.14-04.42.45:155][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2020.02.14-04.42.45:165][356]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 3022 classes and 723 folders.
+[2020.02.14-04.42.45:175][356]Display: HotReload took  0.1s.
+[2020.02.14-04.42.47:598][392]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.14-04.42.47:610][392]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.14-04.42.47:610][392]PIE: New page: PIE session: Test (Feb 13, 2020, 11:42:47 PM)
+[2020.02.14-04.42.47:611][392]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.42.47:613][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002811s)
+[2020.02.14-04.42.47:614][392]LogAIModule: Creating AISystem for world Test
+[2020.02.14-04.42.47:615][392]LogPlayLevel: PIE: World Init took: (0.001363s)
+[2020.02.14-04.42.47:615][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.004344s)
+[2020.02.14-04.42.47:643][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2020.02.14-04.42.47:643][392]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.14-04.42.47:643][392]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.14-04.42.47:643][392]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.14-04.42.47:643][392]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.14-04.42.47:643][392]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.14-04.42.47:643][392]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.14-04.42.47:643][392]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.14-04.42.47:643][392]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.14-04.42.47:644][392]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.14-04.42.47:644][392]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.14-04.42.47:654][392]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.14-04.42.47:654][392]LogAudioMixer: Display: Name: Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.42.47:654][392]LogAudioMixer: Display: Is Default: Yes
+[2020.02.14-04.42.47:654][392]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.14-04.42.47:654][392]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.14-04.42.47:654][392]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.14-04.42.47:654][392]LogAudioMixer: Display: Channel Order:
+[2020.02.14-04.42.47:654][392]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.14-04.42.47:654][392]LogAudioMixer: Display: 1: FrontRight
+[2020.02.14-04.42.47:730][392]LogAudioMixer: Display: Using Audio Device Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.42.47:731][392]LogInit: FAudioDevice initialized.
+[2020.02.14-04.42.47:738][392]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.02.14-04.42.47:740][392]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2020.02.14-01.42.47
+[2020.02.14-04.42.47:740][392]LogWorld: Bringing up level for play took: 0.000789
+[2020.02.14-04.42.47:740][392]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.02.14-04.42.47:742][392]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test -0.022
+[2020.02.14-04.42.48:871][459]ItemNearActor is now null!
+[2020.02.14-04.42.48:871][459]overlapped
+[2020.02.14-04.42.49:038][469]+ item
+[2020.02.14-04.42.49:038][469]UNOVER
+[2020.02.14-04.42.49:038][469]done!
+[2020.02.14-04.42.49:205][479]ItemNearActor is now null!
+[2020.02.14-04.42.49:205][479]overlapped
+[2020.02.14-04.42.49:487][496]UNOVER
+[2020.02.14-04.42.55:073][812]ItemNearActor is now null!
+[2020.02.14-04.42.55:073][812]overlapped
+[2020.02.14-04.42.56:606][904]UNOVER
+[2020.02.14-04.42.57:207][939]ItemNearActor is now null!
+[2020.02.14-04.42.57:207][939]overlapped
+[2020.02.14-04.42.57:207][939]item dropped
+[2020.02.14-04.42.57:690][968]UNOVER
+[2020.02.14-04.42.57:691][968]ItemNearActor is now null!
+[2020.02.14-04.42.57:691][968]overlapped
+[2020.02.14-04.42.57:707][969]UNOVER
+[2020.02.14-04.42.58:809][ 35]ItemNearActor is now null!
+[2020.02.14-04.42.58:809][ 35]overlapped
+[2020.02.14-04.42.59:691][ 88]UNOVER
+[2020.02.14-04.43.00:541][139]ItemNearActor is now null!
+[2020.02.14-04.43.00:541][139]overlapped
+[2020.02.14-04.43.01:877][219]UNOVER
+[2020.02.14-04.43.02:943][283]ItemNearActor is now null!
+[2020.02.14-04.43.02:943][283]overlapped
+[2020.02.14-04.43.03:277][303]+ item
+[2020.02.14-04.43.03:277][303]UNOVER
+[2020.02.14-04.43.03:277][303]done!
+[2020.02.14-04.43.03:311][305]ItemNearActor is now null!
+[2020.02.14-04.43.03:311][305]overlapped
+[2020.02.14-04.43.03:610][323]ItemNearActor is now null!
+[2020.02.14-04.43.03:610][323]ItemNearActor is now null!
+[2020.02.14-04.43.03:610][323]overlapped
+[2020.02.14-04.43.03:643][325]UNOVER
+[2020.02.14-04.43.03:710][329]ItemNearActor is now null!
+[2020.02.14-04.43.03:710][329]ItemNearActor is now null!
+[2020.02.14-04.43.03:710][329]overlapped
+[2020.02.14-04.43.03:710][329]item dropped
+[2020.02.14-04.43.03:877][339]UNOVER
+[2020.02.14-04.43.03:894][340]ItemNearActor is now null!
+[2020.02.14-04.43.03:894][340]ItemNearActor is now null!
+[2020.02.14-04.43.03:894][340]overlapped
+[2020.02.14-04.43.03:927][342]UNOVER
+[2020.02.14-04.43.03:994][346]ItemNearActor is now null!
+[2020.02.14-04.43.03:995][346]ItemNearActor is now null!
+[2020.02.14-04.43.03:995][346]overlapped
+[2020.02.14-04.43.04:310][365]UNOVER
+[2020.02.14-04.43.04:427][372]ItemNearActor is now null!
+[2020.02.14-04.43.04:427][372]ItemNearActor is now null!
+[2020.02.14-04.43.04:427][372]overlapped
+[2020.02.14-04.43.04:427][372]UNOVER
+[2020.02.14-04.43.04:611][383]No item to drop
+[2020.02.14-04.43.04:760][392]UNOVER
+[2020.02.14-04.43.04:894][400]ItemNearActor is now null!
+[2020.02.14-04.43.04:894][400]overlapped
+[2020.02.14-04.43.05:144][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.43.05:144][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.43.05:145][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.43.05:145][415]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.43.05:145][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.43.05:145][415]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2020.02.14-04.43.05:145][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.43.05:153][415]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.14-04.43.05:157][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.43.05:182][415]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.43.05:185][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.43.05:187][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.02.14-04.43.05:254][418]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.02.14-04.43.54:896][625]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.02.14-04.44.02:576][647]LogHotReload: New module detected: UE4Editor-Apache_Shooter-0021.dll
+[2020.02.14-04.44.03:255][650]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.14-04.44.03:301][650]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.02.14-04.44.03:338][650]LogContentBrowser: Native class hierarchy updated for 'Apache_Shooter' in 0.0004 seconds. Added 5 classes and 3 folders.
+[2020.02.14-04.44.03:341][650]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2020.02.14-04.44.03:401][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.02.14-04.44.03:412][650]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3022 classes and 723 folders.
+[2020.02.14-04.44.03:421][650]Display: HotReload took  0.2s.
+[2020.02.14-04.44.05:078][698]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.14-04.44.05:088][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.14-04.44.05:088][698]PIE: New page: PIE session: Test (Feb 13, 2020, 11:44:05 PM)
+[2020.02.14-04.44.05:088][698]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.44.05:090][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002076s)
+[2020.02.14-04.44.05:091][698]LogAIModule: Creating AISystem for world Test
+[2020.02.14-04.44.05:091][698]LogPlayLevel: PIE: World Init took: (0.000809s)
+[2020.02.14-04.44.05:091][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.002983s)
+[2020.02.14-04.44.05:117][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2020.02.14-04.44.05:117][698]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.14-04.44.05:117][698]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.14-04.44.05:117][698]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.14-04.44.05:117][698]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.14-04.44.05:117][698]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.14-04.44.05:117][698]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.14-04.44.05:117][698]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.14-04.44.05:117][698]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.14-04.44.05:117][698]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.14-04.44.05:117][698]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.14-04.44.05:128][698]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.14-04.44.05:128][698]LogAudioMixer: Display: Name: Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.44.05:128][698]LogAudioMixer: Display: Is Default: Yes
+[2020.02.14-04.44.05:128][698]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.14-04.44.05:128][698]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.14-04.44.05:128][698]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.14-04.44.05:128][698]LogAudioMixer: Display: Channel Order:
+[2020.02.14-04.44.05:128][698]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.14-04.44.05:128][698]LogAudioMixer: Display: 1: FrontRight
+[2020.02.14-04.44.05:199][698]LogAudioMixer: Display: Using Audio Device Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.44.05:200][698]LogInit: FAudioDevice initialized.
+[2020.02.14-04.44.05:208][698]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.02.14-04.44.05:210][698]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2020.02.14-01.44.05
+[2020.02.14-04.44.05:210][698]LogWorld: Bringing up level for play took: 0.000769
+[2020.02.14-04.44.05:210][698]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.02.14-04.44.05:212][698]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test -0.552
+[2020.02.14-04.44.06:922][800]ItemNearActor is now null!
+[2020.02.14-04.44.06:922][800]overlapped
+[2020.02.14-04.44.08:156][874]UNOVER
+[2020.02.14-04.44.08:973][923]ItemNearActor is now null!
+[2020.02.14-04.44.08:973][923]overlapped
+[2020.02.14-04.44.10:673][ 25]UNOVER
+[2020.02.14-04.44.11:507][ 75]ItemNearActor is now null!
+[2020.02.14-04.44.11:507][ 75]overlapped
+[2020.02.14-04.44.11:890][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.44.11:890][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.44.11:891][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.44.11:891][ 98]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.44.11:891][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.44.11:891][ 98]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2020.02.14-04.44.11:891][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.44.11:899][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.14-04.44.11:902][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.44.11:929][ 98]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.44.11:932][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.44.11:934][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.02.14-04.44.12:001][102]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.02.14-04.45.21:876][359]LogHotReload: New module detected: UE4Editor-Apache_Shooter-0022.dll
+[2020.02.14-04.45.22:567][362]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.14-04.45.22:612][362]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2020.02.14-04.45.22:638][362]LogContentBrowser: Native class hierarchy updated for 'Apache_Shooter' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2020.02.14-04.45.22:641][362]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2020.02.14-04.45.22:695][362]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2020.02.14-04.45.22:706][362]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 3022 classes and 723 folders.
+[2020.02.14-04.45.22:715][362]Display: HotReload took  0.1s.
+[2020.02.14-04.45.24:699][446]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.14-04.45.24:710][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.14-04.45.24:710][446]PIE: New page: PIE session: Test (Feb 13, 2020, 11:45:24 PM)
+[2020.02.14-04.45.24:711][446]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.45.24:713][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002213s)
+[2020.02.14-04.45.24:714][446]LogAIModule: Creating AISystem for world Test
+[2020.02.14-04.45.24:714][446]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2020.02.14-04.45.24:714][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.003456s)
+[2020.02.14-04.45.24:741][446]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2020.02.14-04.45.24:741][446]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.14-04.45.24:741][446]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.14-04.45.24:742][446]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.14-04.45.24:742][446]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.14-04.45.24:742][446]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.14-04.45.24:742][446]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.14-04.45.24:742][446]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.14-04.45.24:742][446]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.14-04.45.24:742][446]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.14-04.45.24:742][446]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.14-04.45.24:752][446]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.14-04.45.24:753][446]LogAudioMixer: Display: Name: Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.45.24:753][446]LogAudioMixer: Display: Is Default: Yes
+[2020.02.14-04.45.24:753][446]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.14-04.45.24:753][446]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.14-04.45.24:753][446]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.14-04.45.24:753][446]LogAudioMixer: Display: Channel Order:
+[2020.02.14-04.45.24:753][446]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.14-04.45.24:753][446]LogAudioMixer: Display: 1: FrontRight
+[2020.02.14-04.45.24:826][446]LogAudioMixer: Display: Using Audio Device Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.45.24:828][446]LogInit: FAudioDevice initialized.
+[2020.02.14-04.45.24:833][446]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.02.14-04.45.24:835][446]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2020.02.14-01.45.24
+[2020.02.14-04.45.24:835][446]LogWorld: Bringing up level for play took: 0.000812
+[2020.02.14-04.45.24:835][446]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.02.14-04.45.24:837][446]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test 1.073
+[2020.02.14-04.45.26:899][569]ASDFAHAG
+[2020.02.14-04.45.26:899][569]ItemNearActor is now null!
+[2020.02.14-04.45.26:899][569]overlapped
+[2020.02.14-04.45.27:832][625]UNOVER
+[2020.02.14-04.45.28:966][693]ItemNearActor is now null!
+[2020.02.14-04.45.28:966][693]overlapped
+[2020.02.14-04.45.35:600][ 66]UNOVER
+[2020.02.14-04.45.36:050][ 93]ItemNearActor is now null!
+[2020.02.14-04.45.36:050][ 93]overlapped
+[2020.02.14-04.45.37:134][158]UNOVER
+[2020.02.14-04.45.38:252][225]ItemNearActor is now null!
+[2020.02.14-04.45.38:252][225]overlapped
+[2020.02.14-04.45.39:652][309]UNOVER
+[2020.02.14-04.45.40:170][340]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.45.40:170][340]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.45.40:171][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.45.40:171][340]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.45.40:171][340]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.45.40:171][340]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2020.02.14-04.45.40:171][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.45.40:182][340]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.14-04.45.40:185][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.45.40:211][340]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.45.40:214][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.45.40:216][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2020.02.14-04.45.40:270][342]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.02.14-04.45.40:437][352]Cmd: SELECT NONE
+[2020.02.14-04.45.40:453][353]Cmd: SELECT NONE
+[2020.02.14-04.46.05:420][476]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.02.14-04.46.05:420][476]LogHotReload: New module detected: UE4Editor-Apache_Shooter-0023.dll
+[2020.02.14-04.46.06:110][479]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.14-04.46.06:160][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.02.14-04.46.06:186][479]LogContentBrowser: Native class hierarchy updated for 'Apache_Shooter' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2020.02.14-04.46.06:189][479]Display: HotReload successful (19 functions remapped  0 scriptstructs remapped)
+[2020.02.14-04.46.06:239][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2020.02.14-04.46.06:250][479]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 3022 classes and 723 folders.
+[2020.02.14-04.46.06:259][479]Display: HotReload took  0.1s.
+[2020.02.14-04.46.07:984][511]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.14-04.46.07:994][511]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.14-04.46.07:994][511]PIE: New page: PIE session: Test (Feb 13, 2020, 11:46:07 PM)
+[2020.02.14-04.46.07:995][511]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.46.07:997][511]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002138s)
+[2020.02.14-04.46.07:997][511]LogAIModule: Creating AISystem for world Test
+[2020.02.14-04.46.07:998][511]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2020.02.14-04.46.07:998][511]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.003035s)
+[2020.02.14-04.46.08:025][511]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2020.02.14-04.46.08:025][511]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.14-04.46.08:025][511]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.14-04.46.08:025][511]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.14-04.46.08:025][511]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.14-04.46.08:025][511]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.14-04.46.08:025][511]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.14-04.46.08:025][511]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.14-04.46.08:025][511]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.14-04.46.08:025][511]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.14-04.46.08:025][511]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.14-04.46.08:035][511]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.14-04.46.08:035][511]LogAudioMixer: Display: Name: Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.46.08:036][511]LogAudioMixer: Display: Is Default: Yes
+[2020.02.14-04.46.08:036][511]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.14-04.46.08:036][511]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.14-04.46.08:036][511]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.14-04.46.08:036][511]LogAudioMixer: Display: Channel Order:
+[2020.02.14-04.46.08:036][511]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.14-04.46.08:036][511]LogAudioMixer: Display: 1: FrontRight
+[2020.02.14-04.46.08:107][511]LogAudioMixer: Display: Using Audio Device Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.46.08:108][511]LogInit: FAudioDevice initialized.
+[2020.02.14-04.46.08:116][511]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.02.14-04.46.08:117][511]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2020.02.14-01.46.08
+[2020.02.14-04.46.08:118][511]LogWorld: Bringing up level for play took: 0.000755
+[2020.02.14-04.46.08:118][511]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.02.14-04.46.08:120][511]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test 0.356
+[2020.02.14-04.46.09:916][618]ASDFAHAG
+[2020.02.14-04.46.09:916][618]ItemNearActor is now null!
+[2020.02.14-04.46.09:916][618]overlapped
+[2020.02.14-04.46.10:933][679]UNOVER
+[2020.02.14-04.46.11:949][740]weaponcarai
+[2020.02.14-04.46.11:949][740]ItemNearActor is now null!
+[2020.02.14-04.46.11:949][740]overlapped
+[2020.02.14-04.46.13:399][827]UNOVER
+[2020.02.14-04.46.14:299][881]weaponcarai
+[2020.02.14-04.46.14:300][881]ItemNearActor is now null!
+[2020.02.14-04.46.14:300][881]overlapped
+[2020.02.14-04.46.15:683][964]UNOVER
+[2020.02.14-04.46.16:499][ 13]ASDFAHAG
+[2020.02.14-04.46.16:499][ 13]ItemNearActor is now null!
+[2020.02.14-04.46.16:499][ 13]overlapped
+[2020.02.14-04.46.16:766][ 29]+ item
+[2020.02.14-04.46.16:766][ 29]UNOVER
+[2020.02.14-04.46.16:766][ 29]done!
+[2020.02.14-04.46.17:565][ 77]ASDFAHAG
+[2020.02.14-04.46.17:565][ 77]ItemNearActor is now null!
+[2020.02.14-04.46.17:566][ 77]overlapped
+[2020.02.14-04.46.17:668][ 83]+ item
+[2020.02.14-04.46.17:668][ 83]UNOVER
+[2020.02.14-04.46.17:668][ 83]done!
+[2020.02.14-04.46.17:932][ 99]ASDFAHAG
+[2020.02.14-04.46.17:932][ 99]ItemNearActor is now null!
+[2020.02.14-04.46.17:932][ 99]overlapped
+[2020.02.14-04.46.17:999][103]+ item
+[2020.02.14-04.46.17:999][103]UNOVER
+[2020.02.14-04.46.17:999][103]done!
+[2020.02.14-04.46.18:216][116]ASDFAHAG
+[2020.02.14-04.46.18:216][116]ItemNearActor is now null!
+[2020.02.14-04.46.18:216][116]overlapped
+[2020.02.14-04.46.18:316][122]+ item
+[2020.02.14-04.46.18:316][122]UNOVER
+[2020.02.14-04.46.18:316][122]done!
+[2020.02.14-04.46.18:599][139]ASDFAHAG
+[2020.02.14-04.46.18:599][139]ItemNearActor is now null!
+[2020.02.14-04.46.18:599][139]overlapped
+[2020.02.14-04.46.18:766][149]Can't carry any more items!
+[2020.02.14-04.46.18:932][159]UNOVER
+[2020.02.14-04.46.19:032][165]ASDFAHAG
+[2020.02.14-04.46.19:032][165]ItemNearActor is now null!
+[2020.02.14-04.46.19:032][165]overlapped
+[2020.02.14-04.46.19:382][186]UNOVER
+[2020.02.14-04.46.19:499][193]ASDFAHAG
+[2020.02.14-04.46.19:499][193]ItemNearActor is now null!
+[2020.02.14-04.46.19:499][193]overlapped
+[2020.02.14-04.46.19:516][194]ASDFAHAG
+[2020.02.14-04.46.19:516][194]ItemNearActor is now null!
+[2020.02.14-04.46.19:516][194]ASDFAHAG
+[2020.02.14-04.46.19:516][194]ItemNearActor is now null!
+[2020.02.14-04.46.19:516][194]overlapped
+[2020.02.14-04.46.19:516][194]item dropped
+[2020.02.14-04.46.19:749][208]UNOVER
+[2020.02.14-04.46.19:749][208]ASDFAHAG
+[2020.02.14-04.46.19:749][208]ItemNearActor is now null!
+[2020.02.14-04.46.19:749][208]ItemNearActor is now null!
+[2020.02.14-04.46.19:749][208]overlapped
+[2020.02.14-04.46.19:766][209]UNOVER
+[2020.02.14-04.46.19:849][214]UNOVER
+[2020.02.14-04.46.20:917][278]done!
+[2020.02.14-04.46.20:917][278]LogTemp: Warning: INVENTORY SLOT = 2
+[2020.02.14-04.46.20:917][278]ITEM: BP_Pickup3
+[2020.02.14-04.46.21:216][296]done!
+[2020.02.14-04.46.21:216][296]LogTemp: Warning: INVENTORY SLOT = 1
+[2020.02.14-04.46.21:216][296]ITEM: BP_Pickup2
+[2020.02.14-04.46.21:482][312]done!
+[2020.02.14-04.46.21:482][312]LogTemp: Warning: INVENTORY SLOT = 0
+[2020.02.14-04.46.21:482][312]ITEM: BP_Pickup_2
+[2020.02.14-04.46.22:015][344]ASDFAHAG
+[2020.02.14-04.46.22:015][344]ItemNearActor is now null!
+[2020.02.14-04.46.22:015][344]overlapped
+[2020.02.14-04.46.22:016][344]item dropped
+[2020.02.14-04.46.22:251][358]done!
+[2020.02.14-04.46.22:251][358]LogTemp: Warning: INVENTORY SLOT = 1
+[2020.02.14-04.46.22:251][358]ITEM: BP_Pickup2
+[2020.02.14-04.46.22:550][376]UNOVER
+[2020.02.14-04.46.22:550][376]ASDFAHAG
+[2020.02.14-04.46.22:550][376]ItemNearActor is now null!
+[2020.02.14-04.46.22:550][376]overlapped
+[2020.02.14-04.46.22:566][377]UNOVER
+[2020.02.14-04.46.22:567][377]ASDFAHAG
+[2020.02.14-04.46.22:567][377]ItemNearActor is now null!
+[2020.02.14-04.46.22:567][377]overlapped
+[2020.02.14-04.46.22:584][378]UNOVER
+[2020.02.14-04.46.22:584][378]ASDFAHAG
+[2020.02.14-04.46.22:584][378]ItemNearActor is now null!
+[2020.02.14-04.46.22:584][378]overlapped
+[2020.02.14-04.46.22:600][379]UNOVER
+[2020.02.14-04.46.22:600][379]ASDFAHAG
+[2020.02.14-04.46.22:600][379]ItemNearActor is now null!
+[2020.02.14-04.46.22:600][379]overlapped
+[2020.02.14-04.46.22:616][380]UNOVER
+[2020.02.14-04.46.22:616][380]ASDFAHAG
+[2020.02.14-04.46.22:616][380]ItemNearActor is now null!
+[2020.02.14-04.46.22:616][380]overlapped
+[2020.02.14-04.46.22:632][381]UNOVER
+[2020.02.14-04.46.22:766][389]ASDFAHAG
+[2020.02.14-04.46.22:766][389]ItemNearActor is now null!
+[2020.02.14-04.46.22:766][389]overlapped
+[2020.02.14-04.46.22:766][389]item dropped
+[2020.02.14-04.46.22:766][389]UNOVER
+[2020.02.14-04.46.22:782][390]ASDFAHAG
+[2020.02.14-04.46.22:782][390]ItemNearActor is now null!
+[2020.02.14-04.46.22:782][390]overlapped
+[2020.02.14-04.46.22:783][390]UNOVER
+[2020.02.14-04.46.24:350][484]No item to drop
+[2020.02.14-04.46.24:599][499]done!
+[2020.02.14-04.46.24:599][499]LogTemp: Warning: INVENTORY SLOT = 2
+[2020.02.14-04.46.24:599][499]ITEM: BP_Pickup3
+[2020.02.14-04.46.25:083][528]ASDFAHAG
+[2020.02.14-04.46.25:083][528]ItemNearActor is now null!
+[2020.02.14-04.46.25:084][528]overlapped
+[2020.02.14-04.46.25:084][528]item dropped
+[2020.02.14-04.46.25:084][528]UNOVER
+[2020.02.14-04.46.25:084][528]ASDFAHAG
+[2020.02.14-04.46.25:084][528]ItemNearActor is now null!
+[2020.02.14-04.46.25:084][528]overlapped
+[2020.02.14-04.46.25:100][529]UNOVER
+[2020.02.14-04.46.28:132][711]ASDFAHAG
+[2020.02.14-04.46.28:132][711]ItemNearActor is now null!
+[2020.02.14-04.46.28:132][711]overlapped
+[2020.02.14-04.46.28:266][719]+ item
+[2020.02.14-04.46.28:266][719]UNOVER
+[2020.02.14-04.46.28:266][719]done!
+[2020.02.14-04.46.30:117][830]done!
+[2020.02.14-04.46.30:117][830]LogTemp: Warning: INVENTORY SLOT = 0
+[2020.02.14-04.46.30:117][830]ITEM: BP_Pickup_2
+[2020.02.14-04.46.33:599][ 39]done!
+[2020.02.14-04.46.33:599][ 39]LogTemp: Warning: INVENTORY SLOT = 0
+[2020.02.14-04.46.33:599][ 39]ITEM: BP_Pickup_2
+[2020.02.14-04.46.34:651][102]done!
+[2020.02.14-04.46.34:651][102]LogTemp: Warning: INVENTORY SLOT = 0
+[2020.02.14-04.46.34:651][102]ITEM: BP_Pickup_2
+[2020.02.14-04.46.34:800][111]done!
+[2020.02.14-04.46.34:800][111]LogTemp: Warning: INVENTORY SLOT = 0
+[2020.02.14-04.46.34:800][111]ITEM: BP_Pickup_2
+[2020.02.14-04.46.34:984][122]done!
+[2020.02.14-04.46.34:984][122]LogTemp: Warning: INVENTORY SLOT = 0
+[2020.02.14-04.46.34:984][122]ITEM: BP_Pickup_2
+[2020.02.14-04.46.35:100][129]done!
+[2020.02.14-04.46.35:100][129]LogTemp: Warning: INVENTORY SLOT = 0
+[2020.02.14-04.46.35:100][129]ITEM: BP_Pickup_2
+[2020.02.14-04.46.35:850][174]ASDFAHAG
+[2020.02.14-04.46.35:850][174]ItemNearActor is now null!
+[2020.02.14-04.46.35:850][174]overlapped
+[2020.02.14-04.46.35:917][178]+ item
+[2020.02.14-04.46.35:917][178]UNOVER
+[2020.02.14-04.46.35:917][178]done!
+[2020.02.14-04.46.36:266][199]ASDFAHAG
+[2020.02.14-04.46.36:266][199]ItemNearActor is now null!
+[2020.02.14-04.46.36:266][199]overlapped
+[2020.02.14-04.46.36:333][203]+ item
+[2020.02.14-04.46.36:333][203]UNOVER
+[2020.02.14-04.46.36:333][203]done!
+[2020.02.14-04.46.36:734][227]ASDFAHAG
+[2020.02.14-04.46.36:734][227]ItemNearActor is now null!
+[2020.02.14-04.46.36:734][227]overlapped
+[2020.02.14-04.46.36:767][229]+ item
+[2020.02.14-04.46.36:767][229]UNOVER
+[2020.02.14-04.46.36:767][229]done!
+[2020.02.14-04.46.37:750][288]ASDFAHAG
+[2020.02.14-04.46.37:750][288]ItemNearActor is now null!
+[2020.02.14-04.46.37:750][288]overlapped
+[2020.02.14-04.46.37:750][288]item dropped
+[2020.02.14-04.46.37:750][288]UNOVER
+[2020.02.14-04.46.39:094][368]done!
+[2020.02.14-04.46.39:094][368]LogTemp: Warning: INVENTORY SLOT = 1
+[2020.02.14-04.46.39:094][368]ITEM: BP_Pickup5_7
+[2020.02.14-04.46.39:444][389]done!
+[2020.02.14-04.46.39:444][389]LogTemp: Warning: INVENTORY SLOT = 2
+[2020.02.14-04.46.39:444][389]ITEM: BP_Pickup6_9
+[2020.02.14-04.46.39:761][408]done!
+[2020.02.14-04.46.39:761][408]LogTemp: Warning: INVENTORY SLOT = 0
+[2020.02.14-04.46.39:761][408]ITEM: BP_Pickup_2
+[2020.02.14-04.46.40:730][466]ASDFAHAG
+[2020.02.14-04.46.40:730][466]ItemNearActor is now null!
+[2020.02.14-04.46.40:730][466]overlapped
+[2020.02.14-04.46.40:730][466]item dropped
+[2020.02.14-04.46.40:731][466]UNOVER
+[2020.02.14-04.46.41:496][512]done!
+[2020.02.14-04.46.41:496][512]LogTemp: Warning: INVENTORY SLOT = 1
+[2020.02.14-04.46.41:496][512]ITEM: BP_Pickup5_7
+[2020.02.14-04.46.42:328][562]ASDFAHAG
+[2020.02.14-04.46.42:328][562]ItemNearActor is now null!
+[2020.02.14-04.46.42:328][562]overlapped
+[2020.02.14-04.46.42:328][562]item dropped
+[2020.02.14-04.46.42:328][562]UNOVER
+[2020.02.14-04.46.43:428][628]done!
+[2020.02.14-04.46.43:428][628]LogTemp: Warning: INVENTORY SLOT = 2
+[2020.02.14-04.46.43:429][628]ITEM: BP_Pickup6_9
+[2020.02.14-04.46.44:179][673]ASDFAHAG
+[2020.02.14-04.46.44:179][673]ItemNearActor is now null!
+[2020.02.14-04.46.44:179][673]overlapped
+[2020.02.14-04.46.44:179][673]item dropped
+[2020.02.14-04.46.44:180][673]UNOVER
+[2020.02.14-04.46.48:046][905]weaponcarai
+[2020.02.14-04.46.48:046][905]ItemNearActor is now null!
+[2020.02.14-04.46.48:046][905]overlapped
+[2020.02.14-04.46.49:614][999]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.46.49:614][999]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.46.49:614][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.46.49:614][999]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.46.49:614][999]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.46.49:614][999]LogWorld: UWorld::CleanupWorld for Test, bSessionEnded=true, bCleanupResources=true
+[2020.02.14-04.46.49:614][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.46.49:621][999]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.14-04.46.49:624][999]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.14-04.46.49:650][999]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.02.14-04.46.49:654][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.14-04.46.49:656][999]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.02.14-04.46.49:727][  3]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.02.14-04.47.20:874][153]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.02.14-04.49.01:206][452]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.02.14-04.49.17:638][501]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.02.14-04.49.24:350][521]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.02.14-04.51.04:826][821]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.02.14-04.52.27:892][ 69]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.02.14-04.53.12:405][201]LogHotReload: New module detected: UE4Editor-Apache_Shooter-0024.dll
+[2020.02.14-04.53.13:089][204]LogHotReload: Starting Hot-Reload from IDE
+[2020.02.14-04.53.13:142][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.02.14-04.53.13:158][204]LogClass: Could not find existing class S_Character in package /Script/Apache_Shooter for HotReload, assuming new class
+[2020.02.14-04.53.13:158][204]LogClass: Function BeginOverlap is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function CharInits is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function DropSelectedItem is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function EndOverlap is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function GetOverlappingItems is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function HidePickup is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function HoldItem is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function MoveForward is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function MoveRight is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function SelectItem is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function SelectItem1 is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function SelectItem2 is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function SelectItem3 is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function SelectItem4 is new.
+[2020.02.14-04.53.13:158][204]LogClass: Function SetPickupType is new.
+[2020.02.14-04.53.13:167][204]LogHotReload: Re-instancing S_Character after hot-reload.
+[2020.02.14-04.53.13:256][204]LogContentBrowser: Native class hierarchy updated for 'Apache_Shooter' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2020.02.14-04.53.13:258][204]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.02.14-04.53.13:309][204]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.02.14-04.53.13:319][204]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 3022 classes and 723 folders.
+[2020.02.14-04.53.13:327][204]Display: HotReload took  0.2s.
+[2020.02.14-04.53.15:393][247]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.14-04.53.15:405][247]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.14-04.53.15:405][247]PIE: New page: PIE session: Test (Feb 13, 2020, 11:53:15 PM)
+[2020.02.14-04.53.15:405][247]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Test
+[2020.02.14-04.53.15:408][247]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002613s)
+[2020.02.14-04.53.15:409][247]LogAIModule: Creating AISystem for world Test
+[2020.02.14-04.53.15:409][247]LogPlayLevel: PIE: World Init took: (0.001185s)
+[2020.02.14-04.53.15:409][247]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Test.Test to /Game/Maps/UEDPIE_0_Test.Test (0.003922s)
+[2020.02.14-04.53.15:436][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.02.14-04.53.15:437][247]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.14-04.53.15:437][247]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.14-04.53.15:437][247]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.14-04.53.15:437][247]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.14-04.53.15:437][247]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.14-04.53.15:437][247]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.14-04.53.15:437][247]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.14-04.53.15:437][247]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.14-04.53.15:437][247]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.14-04.53.15:437][247]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.14-04.53.15:448][247]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.14-04.53.15:448][247]LogAudioMixer: Display: Name: Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.53.15:448][247]LogAudioMixer: Display: Is Default: Yes
+[2020.02.14-04.53.15:448][247]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.14-04.53.15:448][247]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.14-04.53.15:448][247]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.14-04.53.15:448][247]LogAudioMixer: Display: Channel Order:
+[2020.02.14-04.53.15:448][247]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.14-04.53.15:448][247]LogAudioMixer: Display: 1: FrontRight
+[2020.02.14-04.53.15:521][247]LogAudioMixer: Display: Using Audio Device Alto-falantes (3- Realtek(R) Audio)
+[2020.02.14-04.53.15:523][247]LogInit: FAudioDevice initialized.
+[2020.02.14-04.53.15:529][247]LogLoad: Game class is 'BP_GameModeBase_C'
+[2020.02.14-04.53.15:531][247]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Test.Test up for play (max tick rate 60) at 2020.02.14-01.53.15
+[2020.02.14-04.53.15:531][247]LogWorld: Bringing up level for play took: 0.000943
+[2020.02.14-04.53.15:531][247]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.02.14-04.53.15:534][247]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_Test -0.23
+[2020.02.14-04.53.16:830][324]ItemNearActor is now null!
+[2020.02.14-04.53.16:830][324]overlapped
+[2020.02.14-04.53.16:897][328]+ item
+[2020.02.14-04.53.16:897][328]UNOVER
+[2020.02.14-04.53.16:897][328]done!
+[2020.02.14-04.53.17:164][344]ItemNearActor is now null!
+[2020.02.14-04.53.17:164][344]overlapped
+[2020.02.14-04.53.17:263][350]+ item
+[2020.02.14-04.53.17:263][350]UNOVER
+[2020.02.14-04.53.17:264][350]done!
+[2020.02.14-04.53.17:514][365]ItemNearActor is now null!
+[2020.02.14-04.53.17:514][365]overlapped
+[2020.02.14-04.53.17:614][371]+ item
+[2020.02.14-04.53.17:614][371]UNOVER
+[2020.02.14-04.53.17:614][371]done!
+[2020.02.14-04.53.17:814][383]ItemNearActor is now null!
+[2020.02.14-04.53.17:814][383]overlapped
+[2020.02.14-04.53.17:964][392]+ item
+[2020.02.14-04.53.17:964][392]UNOVER
+[2020.02.14-04.53.17:964][392]done!
+[2020.02.14-04.53.18:180][405]ItemNearActor is now null!
+[2020.02.14-04.53.18:180][405]overlapped
+[2020.02.14-04.53.18:380][417]Can't carry any more items!
+[2020.02.14-04.53.18:547][427]UNOVER
+[2020.02.14-04.53.18:631][432]ItemNearActor is now null!
+[2020.02.14-04.53.18:631][432]overlapped
+[2020.02.14-04.53.18:748][439]Can't carry any more items!
+[2020.02.14-04.53.18:980][453]UNOVER

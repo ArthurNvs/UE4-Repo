@@ -14,8 +14,60 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define APACHE_SHOOTER_S_Weapon_generated_h
 
 #define Apache_Shooter_Source_Apache_Shooter_Public_S_Weapon_h_13_SPARSE_DATA
-#define Apache_Shooter_Source_Apache_Shooter_Public_S_Weapon_h_13_RPC_WRAPPERS
-#define Apache_Shooter_Source_Apache_Shooter_Public_S_Weapon_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define Apache_Shooter_Source_Apache_Shooter_Public_S_Weapon_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execReload) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Reload(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execLauncherShoot) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LauncherShoot(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execShoot) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Shoot(); \
+		P_NATIVE_END; \
+	}
+
+
+#define Apache_Shooter_Source_Apache_Shooter_Public_S_Weapon_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execReload) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Reload(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execLauncherShoot) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->LauncherShoot(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execShoot) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->Shoot(); \
+		P_NATIVE_END; \
+	}
+
+
 #define Apache_Shooter_Source_Apache_Shooter_Public_S_Weapon_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAS_Weapon(); \
@@ -36,7 +88,7 @@ public: \
 
 #define Apache_Shooter_Source_Apache_Shooter_Public_S_Weapon_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AS_Weapon(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AS_Weapon(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AS_Weapon) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AS_Weapon); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AS_Weapon); \
@@ -48,8 +100,6 @@ public:
 
 
 #define Apache_Shooter_Source_Apache_Shooter_Public_S_Weapon_h_13_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AS_Weapon() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AS_Weapon(AS_Weapon&&); \
@@ -60,7 +110,12 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AS_Weapon); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AS_Weapon)
 
 
-#define Apache_Shooter_Source_Apache_Shooter_Public_S_Weapon_h_13_PRIVATE_PROPERTY_OFFSET
+#define Apache_Shooter_Source_Apache_Shooter_Public_S_Weapon_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__MeshComp() { return STRUCT_OFFSET(AS_Weapon, MeshComp); } \
+	FORCEINLINE static uint32 __PPO__ArrowComp() { return STRUCT_OFFSET(AS_Weapon, ArrowComp); } \
+	FORCEINLINE static uint32 __PPO__LaserMesh() { return STRUCT_OFFSET(AS_Weapon, LaserMesh); }
+
+
 #define Apache_Shooter_Source_Apache_Shooter_Public_S_Weapon_h_10_PROLOG
 #define Apache_Shooter_Source_Apache_Shooter_Public_S_Weapon_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

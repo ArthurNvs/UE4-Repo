@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Breakthrough.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{4D9C36A6-5DB8-4AD6-98CA-836AC6033E68}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Breakthrough.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BreakthroughEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{3CBB5CE0-7AE5-45A7-B4AA-D9B58BD9CC29}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\Android">
+      <UniqueIdentifier>{25D3C3C8-0C88-406D-9762-30547C9CE6A1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Android\AndroidEngine.ini">
+      <Filter>Config\Android</Filter>
+    </None>
+    <Filter Include="Config\IOS">
+      <UniqueIdentifier>{1B661022-8915-40AF-BFF6-322163DB9051}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\IOS\IOSEngine.ini">
+      <Filter>Config\IOS</Filter>
+    </None>
+    <Filter Include="Config\Linux">
+      <UniqueIdentifier>{2F2652EA-92D6-4D4B-8BCD-8D0D8F992FB1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Linux\LinuxEngine.ini">
+      <Filter>Config\Linux</Filter>
+    </None>
+    <Filter Include="Config\Mac">
+      <UniqueIdentifier>{7AFCE1B8-9826-4B68-88B7-E56473A9752F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Mac\MacEngine.ini">
+      <Filter>Config\Mac</Filter>
+    </None>
+    <Filter Include="Config\PS4">
+      <UniqueIdentifier>{DD4C814F-B932-49C7-A7BF-06321AF3704E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\PS4\PS4Engine.ini">
+      <Filter>Config\PS4</Filter>
+    </None>
+    <Filter Include="Config\Switch">
+      <UniqueIdentifier>{29CCDF9E-BC17-4804-9D82-C2F54326B436}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Switch\SwitchEngine.ini">
+      <Filter>Config\Switch</Filter>
+    </None>
+    <Filter Include="Config\Windows">
+      <UniqueIdentifier>{2674F8BF-EDF2-459B-B136-4AC7294FC60D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\Windows\WindowsEngine.ini">
+      <Filter>Config\Windows</Filter>
+    </None>
+    <Filter Include="Config\XboxOne">
+      <UniqueIdentifier>{234307E6-4FCD-4146-B7FA-27B74142CF6B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\XboxOne\XboxOneEngine.ini">
+      <Filter>Config\XboxOne</Filter>
+    </None>
+    <Filter Include="Source\Breakthrough">
+      <UniqueIdentifier>{054C0BFA-133B-452B-BBC6-4D5ED4258383}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Breakthrough\BAnimInstance.cpp">
+      <Filter>Source\Breakthrough</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakthrough\BAnimInstance.h">
+      <Filter>Source\Breakthrough</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Breakthrough\BGameMode.cpp">
+      <Filter>Source\Breakthrough</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakthrough\BGameMode.h">
+      <Filter>Source\Breakthrough</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Breakthrough\BGamePlayController.cpp">
+      <Filter>Source\Breakthrough</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakthrough\BGamePlayController.h">
+      <Filter>Source\Breakthrough</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Breakthrough\BInteractable.cpp">
+      <Filter>Source\Breakthrough</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakthrough\BInteractable.h">
+      <Filter>Source\Breakthrough</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Breakthrough\BInteractionInterface.cpp">
+      <Filter>Source\Breakthrough</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakthrough\BInteractionInterface.h">
+      <Filter>Source\Breakthrough</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Breakthrough\BObject.cpp">
+      <Filter>Source\Breakthrough</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakthrough\BObject.h">
+      <Filter>Source\Breakthrough</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Breakthrough\BPickup.cpp">
+      <Filter>Source\Breakthrough</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakthrough\BPickup.h">
+      <Filter>Source\Breakthrough</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Breakthrough\BPlayer.cpp">
+      <Filter>Source\Breakthrough</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakthrough\BPlayer.h">
+      <Filter>Source\Breakthrough</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Breakthrough\BPlayerHand.cpp">
+      <Filter>Source\Breakthrough</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakthrough\BPlayerHand.h">
+      <Filter>Source\Breakthrough</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Breakthrough\Breakthrough.Build.cs">
+      <Filter>Source\Breakthrough</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Breakthrough\Breakthrough.cpp">
+      <Filter>Source\Breakthrough</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakthrough\Breakthrough.h">
+      <Filter>Source\Breakthrough</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Breakthrough\BreakthroughGameModeBase.cpp">
+      <Filter>Source\Breakthrough</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Breakthrough\BreakthroughGameModeBase.h">
+      <Filter>Source\Breakthrough</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Breakthrough\Variables.h">
+      <Filter>Source\Breakthrough</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -19,37 +19,48 @@ void EmptyLinkFunctionForGeneratedCodeS_Character() {}
 	UPackage* Z_Construct_UPackage__Script_Apache_Shooter();
 	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_BeginOverlap();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_CharInits();
 	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_DropSelectedItem();
 	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_EndOverlap();
 	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_GetOverlappingItems();
-	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_HoldItem();
+	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_HidePickup();
 	APACHE_SHOOTER_API UClass* Z_Construct_UClass_AS_Pickup_NoRegister();
+	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_HoldItem();
 	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_MoveForward();
 	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_MoveRight();
 	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_PickupItem();
+	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_PickupWeapon();
+	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_SelectItem();
 	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_SelectItem1();
 	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_SelectItem2();
 	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_SelectItem3();
 	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_SelectItem4();
+	APACHE_SHOOTER_API UFunction* Z_Construct_UFunction_AS_Character_SetPickupType();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
+	APACHE_SHOOTER_API UClass* Z_Construct_UClass_AS_Weapon_NoRegister();
 // End Cross Module References
 	void AS_Character::StaticRegisterNativesAS_Character()
 	{
 		UClass* Class = AS_Character::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "BeginOverlap", &AS_Character::execBeginOverlap },
+			{ "CharInits", &AS_Character::execCharInits },
 			{ "DropSelectedItem", &AS_Character::execDropSelectedItem },
 			{ "EndOverlap", &AS_Character::execEndOverlap },
 			{ "GetOverlappingItems", &AS_Character::execGetOverlappingItems },
+			{ "HidePickup", &AS_Character::execHidePickup },
 			{ "HoldItem", &AS_Character::execHoldItem },
 			{ "MoveForward", &AS_Character::execMoveForward },
 			{ "MoveRight", &AS_Character::execMoveRight },
 			{ "PickupItem", &AS_Character::execPickupItem },
+			{ "PickupWeapon", &AS_Character::execPickupWeapon },
+			{ "SelectItem", &AS_Character::execSelectItem },
 			{ "SelectItem1", &AS_Character::execSelectItem1 },
 			{ "SelectItem2", &AS_Character::execSelectItem2 },
 			{ "SelectItem3", &AS_Character::execSelectItem3 },
 			{ "SelectItem4", &AS_Character::execSelectItem4 },
+			{ "SetPickupType", &AS_Character::execSetPickupType },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -86,6 +97,28 @@ void EmptyLinkFunctionForGeneratedCodeS_Character() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AS_Character_BeginOverlap_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AS_Character_CharInits_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AS_Character_CharInits_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/S_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AS_Character_CharInits_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AS_Character, nullptr, "CharInits", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AS_Character_CharInits_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AS_Character_CharInits_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AS_Character_CharInits()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AS_Character_CharInits_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -167,6 +200,38 @@ void EmptyLinkFunctionForGeneratedCodeS_Character() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AS_Character_GetOverlappingItems_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AS_Character_HidePickup_Statics
+	{
+		struct S_Character_eventHidePickup_Parms
+		{
+			AS_Pickup* Hide;
+		};
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Hide;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AS_Character_HidePickup_Statics::NewProp_Hide = { "Hide", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(S_Character_eventHidePickup_Parms, Hide), Z_Construct_UClass_AS_Pickup_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AS_Character_HidePickup_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AS_Character_HidePickup_Statics::NewProp_Hide,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AS_Character_HidePickup_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/S_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AS_Character_HidePickup_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AS_Character, nullptr, "HidePickup", nullptr, nullptr, sizeof(S_Character_eventHidePickup_Parms), Z_Construct_UFunction_AS_Character_HidePickup_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AS_Character_HidePickup_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AS_Character_HidePickup_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AS_Character_HidePickup_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AS_Character_HidePickup()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AS_Character_HidePickup_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -276,17 +341,70 @@ void EmptyLinkFunctionForGeneratedCodeS_Character() {}
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AS_Character_PickupItem_Statics::Function_MetaDataParams[] = {
-		{ "Category", "Pickup" },
 		{ "ModuleRelativePath", "Public/S_Character.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AS_Character_PickupItem_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AS_Character, nullptr, "PickupItem", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AS_Character_PickupItem_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AS_Character_PickupItem_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AS_Character_PickupItem_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AS_Character, nullptr, "PickupItem", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AS_Character_PickupItem_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AS_Character_PickupItem_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_AS_Character_PickupItem()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AS_Character_PickupItem_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AS_Character_PickupWeapon_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AS_Character_PickupWeapon_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/S_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AS_Character_PickupWeapon_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AS_Character, nullptr, "PickupWeapon", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AS_Character_PickupWeapon_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AS_Character_PickupWeapon_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AS_Character_PickupWeapon()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AS_Character_PickupWeapon_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AS_Character_SelectItem_Statics
+	{
+		struct S_Character_eventSelectItem_Parms
+		{
+			int32 ItemIndex;
+		};
+		static const UE4CodeGen_Private::FIntPropertyParams NewProp_ItemIndex;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UFunction_AS_Character_SelectItem_Statics::NewProp_ItemIndex = { "ItemIndex", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(S_Character_eventSelectItem_Parms, ItemIndex), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AS_Character_SelectItem_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AS_Character_SelectItem_Statics::NewProp_ItemIndex,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AS_Character_SelectItem_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/S_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AS_Character_SelectItem_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AS_Character, nullptr, "SelectItem", nullptr, nullptr, sizeof(S_Character_eventSelectItem_Parms), Z_Construct_UFunction_AS_Character_SelectItem_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AS_Character_SelectItem_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AS_Character_SelectItem_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AS_Character_SelectItem_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AS_Character_SelectItem()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AS_Character_SelectItem_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -382,6 +500,29 @@ void EmptyLinkFunctionForGeneratedCodeS_Character() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AS_Character_SetPickupType_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AS_Character_SetPickupType_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Pickup" },
+		{ "ModuleRelativePath", "Public/S_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AS_Character_SetPickupType_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AS_Character, nullptr, "SetPickupType", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AS_Character_SetPickupType_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AS_Character_SetPickupType_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AS_Character_SetPickupType()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AS_Character_SetPickupType_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AS_Character_NoRegister()
 	{
 		return AS_Character::StaticClass();
@@ -416,6 +557,10 @@ void EmptyLinkFunctionForGeneratedCodeS_Character() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_InHandsItem;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WeaponNearActor_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_WeaponNearActor;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PickupNearActor_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_PickupNearActor;
@@ -441,17 +586,22 @@ void EmptyLinkFunctionForGeneratedCodeS_Character() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AS_Character_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AS_Character_BeginOverlap, "BeginOverlap" }, // 3242761754
+		{ &Z_Construct_UFunction_AS_Character_CharInits, "CharInits" }, // 925750307
 		{ &Z_Construct_UFunction_AS_Character_DropSelectedItem, "DropSelectedItem" }, // 2872208140
 		{ &Z_Construct_UFunction_AS_Character_EndOverlap, "EndOverlap" }, // 4153241200
 		{ &Z_Construct_UFunction_AS_Character_GetOverlappingItems, "GetOverlappingItems" }, // 4222742001
+		{ &Z_Construct_UFunction_AS_Character_HidePickup, "HidePickup" }, // 2385392103
 		{ &Z_Construct_UFunction_AS_Character_HoldItem, "HoldItem" }, // 2022603674
 		{ &Z_Construct_UFunction_AS_Character_MoveForward, "MoveForward" }, // 1553510999
 		{ &Z_Construct_UFunction_AS_Character_MoveRight, "MoveRight" }, // 2342522472
-		{ &Z_Construct_UFunction_AS_Character_PickupItem, "PickupItem" }, // 2072469641
+		{ &Z_Construct_UFunction_AS_Character_PickupItem, "PickupItem" }, // 2177132175
+		{ &Z_Construct_UFunction_AS_Character_PickupWeapon, "PickupWeapon" }, // 3308653879
+		{ &Z_Construct_UFunction_AS_Character_SelectItem, "SelectItem" }, // 2028447895
 		{ &Z_Construct_UFunction_AS_Character_SelectItem1, "SelectItem1" }, // 2626534057
 		{ &Z_Construct_UFunction_AS_Character_SelectItem2, "SelectItem2" }, // 2917058894
 		{ &Z_Construct_UFunction_AS_Character_SelectItem3, "SelectItem3" }, // 2669369615
 		{ &Z_Construct_UFunction_AS_Character_SelectItem4, "SelectItem4" }, // 3850284550
+		{ &Z_Construct_UFunction_AS_Character_SetPickupType, "SetPickupType" }, // 3280100841
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AS_Character_Statics::Class_MetaDataParams[] = {
@@ -485,7 +635,7 @@ void EmptyLinkFunctionForGeneratedCodeS_Character() {}
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AS_Character_Statics::NewProp_WeaponInventory = { "WeaponInventory", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AS_Character, WeaponInventory), METADATA_PARAMS(Z_Construct_UClass_AS_Character_Statics::NewProp_WeaponInventory_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AS_Character_Statics::NewProp_WeaponInventory_MetaData)) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AS_Character_Statics::NewProp_WeaponInventory_Inner = { "WeaponInventory", nullptr, (EPropertyFlags)0x0000000000020000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AS_Pickup_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AS_Character_Statics::NewProp_WeaponInventory_Inner = { "WeaponInventory", nullptr, (EPropertyFlags)0x0000000000020000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AS_Weapon_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AS_Character_Statics::NewProp_ItemsInventory_MetaData[] = {
 		{ "Category", "ItemsInventory" },
@@ -505,6 +655,13 @@ void EmptyLinkFunctionForGeneratedCodeS_Character() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AS_Character_Statics::NewProp_InHandsItem = { "InHandsItem", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AS_Character, InHandsItem), Z_Construct_UClass_AS_Pickup_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AS_Character_Statics::NewProp_InHandsItem_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AS_Character_Statics::NewProp_InHandsItem_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AS_Character_Statics::NewProp_WeaponNearActor_MetaData[] = {
+		{ "Category", "PickupWeapon" },
+		{ "ModuleRelativePath", "Public/S_Character.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AS_Character_Statics::NewProp_WeaponNearActor = { "WeaponNearActor", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AS_Character, WeaponNearActor), Z_Construct_UClass_AS_Weapon_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AS_Character_Statics::NewProp_WeaponNearActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AS_Character_Statics::NewProp_WeaponNearActor_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AS_Character_Statics::NewProp_PickupNearActor_MetaData[] = {
 		{ "Category", "PickupItem" },
@@ -545,6 +702,7 @@ void EmptyLinkFunctionForGeneratedCodeS_Character() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AS_Character_Statics::NewProp_ItemsInventory,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AS_Character_Statics::NewProp_ItemsInventory_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AS_Character_Statics::NewProp_InHandsItem,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AS_Character_Statics::NewProp_WeaponNearActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AS_Character_Statics::NewProp_PickupNearActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AS_Character_Statics::NewProp_Health,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AS_Character_Statics::NewProp_MaxSpeed,
@@ -577,7 +735,7 @@ void EmptyLinkFunctionForGeneratedCodeS_Character() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AS_Character, 3185105635);
+	IMPLEMENT_CLASS(AS_Character, 3336185370);
 	template<> APACHE_SHOOTER_API UClass* StaticClass<AS_Character>()
 	{
 		return AS_Character::StaticClass();

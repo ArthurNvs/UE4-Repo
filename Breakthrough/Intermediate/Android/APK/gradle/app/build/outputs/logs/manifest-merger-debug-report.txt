@@ -1,0 +1,509 @@
+-- Merging decision tree log ---
+manifest
+ADDED from Z:\app\src\main\AndroidManifest.xml:1:1-57:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-57:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-57:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-57:12
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-games-11.8.0.aar\baa439d37d67f4d2749359e065aab470\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\b745d27fc16a969bc722a5d02b9e53d7\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-plus:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.8.0.aar\be52197c4f2c61ce2029f7d30c686818\AndroidManifest.xml:17:1-24:12
+MERGED from [:downloader_library] Z:\downloader_library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-11:12
+MERGED from [:permission_library] Z:\permission_library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v13:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.0.aar\4c8b4a5c46bddd07d4c67da03b92f865\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\225865dbe08ebb8df73c7023a347aabf\AndroidManifest.xml:17:1-28:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\be9cab19bdb0061bc5dedc7fe162fa00\AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\a78e703767131703510e42b6e51dd3c9\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\81a84c8fae506f806862ad2d65493546\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.8.0.aar\14248991ca9022a4e4c7ea37575cde77\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\34eef3177a71e492da7aa9cbc25f0a1e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\39eac7c9b39a4b7e0380375cba997a5e\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\3d3f75855cc0f00c9ad3eaa460236973\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f4620446ca1c923c9830c6148ad4d731\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.8.0.aar\d8708d6da3e81140700c766bcd911a8f\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-nearby-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.8.0.aar\dfc3690e14c1e8344ad1c1435fe5d12d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-plus-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.8.0.aar\2bae7f17a54aa6c15cb56ffebb8fa858\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\0a0e0ee4d36def07f80c95d4810612c5\AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\cb2bc1234f176a046d48f6c39475fc91\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\7c23df97d9afe9c16fd040c9b4cf2d8e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\bf823b302890590a06dc847b739b4f13\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\9646c36e6f90766b395c33a483f6acd4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\d2a7851de636d29203d6757fbd9582a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\24c711fc3b116134f07710c8f7d49ec9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2b24f9309312da7f09ab7db871a5f238\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\48e739560a58a37d3160463b328e98d0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\463ff03a6240249a4e840a9578bc4a23\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\bef69ddbf17d20d3f1a0f32d885d32ea\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\d6bad89c71bed5ebdb1480394d8ab89c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\2d69f318cd73069fa31212b06b5795c7\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\f090f39fc5c2e6c83e5008d3cc437a35\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\0fdfe76e6514fa92d02f7d84a90f03c2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\f75ca416993142dd3042382ee3fbcd2c\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\2487338e9b3c86d5fc53a7c56c69292b\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.8.0.aar\8ef5774b50bd884164abbcd4c8650c3e\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\c15f624c0ce5f2779bc08d7b7b2e05f8\AndroidManifest.xml:2:1-6:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-57:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-57:12
+INJECTED from Z:\app\src\main\AndroidManifest.xml:1:1-57:12
+	package
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:70-108
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:172-197
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:148-171
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from Z:\app\src\main\AndroidManifest.xml:1:109-147
+application
+ADDED from Z:\app\src\main\AndroidManifest.xml:3:3-43:17
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-games-11.8.0.aar\baa439d37d67f4d2749359e065aab470\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-games-11.8.0.aar\baa439d37d67f4d2749359e065aab470\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\b745d27fc16a969bc722a5d02b9e53d7\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\b745d27fc16a969bc722a5d02b9e53d7\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-plus:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.8.0.aar\be52197c4f2c61ce2029f7d30c686818\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-plus:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.8.0.aar\be52197c4f2c61ce2029f7d30c686818\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\225865dbe08ebb8df73c7023a347aabf\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\225865dbe08ebb8df73c7023a347aabf\AndroidManifest.xml:26:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\be9cab19bdb0061bc5dedc7fe162fa00\AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\be9cab19bdb0061bc5dedc7fe162fa00\AndroidManifest.xml:22:5-28:19
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.8.0.aar\14248991ca9022a4e4c7ea37575cde77\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.8.0.aar\14248991ca9022a4e4c7ea37575cde77\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\34eef3177a71e492da7aa9cbc25f0a1e\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\34eef3177a71e492da7aa9cbc25f0a1e\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\39eac7c9b39a4b7e0380375cba997a5e\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\39eac7c9b39a4b7e0380375cba997a5e\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\3d3f75855cc0f00c9ad3eaa460236973\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\3d3f75855cc0f00c9ad3eaa460236973\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f4620446ca1c923c9830c6148ad4d731\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f4620446ca1c923c9830c6148ad4d731\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.8.0.aar\d8708d6da3e81140700c766bcd911a8f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.8.0.aar\d8708d6da3e81140700c766bcd911a8f\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-nearby-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.8.0.aar\dfc3690e14c1e8344ad1c1435fe5d12d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-nearby-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.8.0.aar\dfc3690e14c1e8344ad1c1435fe5d12d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-plus-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.8.0.aar\2bae7f17a54aa6c15cb56ffebb8fa858\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-plus-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.8.0.aar\2bae7f17a54aa6c15cb56ffebb8fa858\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\0a0e0ee4d36def07f80c95d4810612c5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\0a0e0ee4d36def07f80c95d4810612c5\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\2d69f318cd73069fa31212b06b5795c7\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\2d69f318cd73069fa31212b06b5795c7\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\f090f39fc5c2e6c83e5008d3cc437a35\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\f090f39fc5c2e6c83e5008d3cc437a35\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\0fdfe76e6514fa92d02f7d84a90f03c2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\0fdfe76e6514fa92d02f7d84a90f03c2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\f75ca416993142dd3042382ee3fbcd2c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\f75ca416993142dd3042382ee3fbcd2c\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\2487338e9b3c86d5fc53a7c56c69292b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\2487338e9b3c86d5fc53a7c56c69292b\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.8.0.aar\8ef5774b50bd884164abbcd4c8650c3e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.8.0.aar\8ef5774b50bd884164abbcd4c8650c3e\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\c15f624c0ce5f2779bc08d7b7b2e05f8\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\c15f624c0ce5f2779bc08d7b7b2e05f8\AndroidManifest.xml:5:5-20
+	android:label
+		ADDED from Z:\app\src\main\AndroidManifest.xml:3:16-48
+	android:hasCode
+		ADDED from Z:\app\src\main\AndroidManifest.xml:3:163-185
+	android:hardwareAccelerated
+		ADDED from Z:\app\src\main\AndroidManifest.xml:3:79-113
+	android:icon
+		ADDED from Z:\app\src\main\AndroidManifest.xml:3:49-78
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:3:114-162
+activity#com.epicgames.ue4.GameActivity
+ADDED from Z:\app\src\main\AndroidManifest.xml:4:5-10:16
+	android:screenOrientation
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:352-389
+	android:label
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:61-93
+	android:launchMode
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:320-351
+	android:debuggable
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:390-415
+	android:resizeableActivity
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:285-319
+	android:configChanges
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:159-284
+	android:theme
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:94-158
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:4:15-60
+meta-data#android.app.lib_name
+ADDED from Z:\app\src\main\AndroidManifest.xml:5:7-76
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:5:54-73
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:5:18-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from Z:\app\src\main\AndroidManifest.xml:6:7-9:23
+action#android.intent.action.MAIN
+ADDED from Z:\app\src\main\AndroidManifest.xml:7:9-61
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:7:17-58
+category#android.intent.category.LAUNCHER
+ADDED from Z:\app\src\main\AndroidManifest.xml:8:9-69
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:8:19-66
+activity#com.YourCompany.Breakthrough.DownloaderActivity
+ADDED from Z:\app\src\main\AndroidManifest.xml:11:5-52
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:11:15-49
+meta-data#com.epicgames.ue4.GameActivity.EngineVersion
+ADDED from Z:\app\src\main\AndroidManifest.xml:12:5-101
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:12:76-98
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:12:16-75
+meta-data#com.epicgames.ue4.GameActivity.EngineBranch
+ADDED from Z:\app\src\main\AndroidManifest.xml:13:5-112
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:13:75-109
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:13:16-74
+meta-data#com.epicgames.ue4.GameActivity.ProjectVersion
+ADDED from Z:\app\src\main\AndroidManifest.xml:14:5-103
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:14:77-100
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:14:16-76
+meta-data#com.epicgames.ue4.GameActivity.DepthBufferPreference
+ADDED from Z:\app\src\main\AndroidManifest.xml:15:5-104
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:15:84-101
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:15:16-83
+meta-data#com.epicgames.ue4.GameActivity.bPackageDataInsideApk
+ADDED from Z:\app\src\main\AndroidManifest.xml:16:5-108
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:16:84-105
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:16:16-83
+meta-data#com.epicgames.ue4.GameActivity.bVerifyOBBOnStartUp
+ADDED from Z:\app\src\main\AndroidManifest.xml:17:5-106
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:17:82-103
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:17:16-81
+meta-data#com.epicgames.ue4.GameActivity.bShouldHideUI
+ADDED from Z:\app\src\main\AndroidManifest.xml:18:5-99
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:18:76-96
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:18:16-75
+meta-data#com.epicgames.ue4.GameActivity.ProjectName
+ADDED from Z:\app\src\main\AndroidManifest.xml:19:5-105
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:19:74-102
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:19:16-73
+meta-data#com.epicgames.ue4.GameActivity.AppType
+ADDED from Z:\app\src\main\AndroidManifest.xml:20:5-89
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:20:70-86
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:20:16-69
+meta-data#com.epicgames.ue4.GameActivity.bHasOBBFiles
+ADDED from Z:\app\src\main\AndroidManifest.xml:21:5-99
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:21:75-96
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:21:16-74
+meta-data#com.epicgames.ue4.GameActivity.BuildConfiguration
+ADDED from Z:\app\src\main\AndroidManifest.xml:22:5-111
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:22:81-108
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:22:16-80
+meta-data#com.epicgames.ue4.GameActivity.CookedFlavors
+ADDED from Z:\app\src\main\AndroidManifest.xml:23:5-99
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:23:76-96
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:23:16-75
+meta-data#com.epicgames.ue4.GameActivity.bValidateTextureFormats
+ADDED from Z:\app\src\main\AndroidManifest.xml:24:5-109
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:24:86-106
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:24:16-85
+meta-data#com.epicgames.ue4.GameActivity.bUseExternalFilesDir
+ADDED from Z:\app\src\main\AndroidManifest.xml:25:5-107
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:25:83-104
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:25:16-82
+meta-data#com.epicgames.ue4.GameActivity.bUseDisplayCutout
+ADDED from Z:\app\src\main\AndroidManifest.xml:26:5-104
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:26:80-101
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:26:16-79
+meta-data#com.epicgames.ue4.GameActivity.bAllowIMU
+ADDED from Z:\app\src\main\AndroidManifest.xml:27:5-95
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:27:72-92
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:27:16-71
+meta-data#com.epicgames.ue4.GameActivity.bSupportsVulkan
+ADDED from Z:\app\src\main\AndroidManifest.xml:28:5-102
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:28:78-99
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:28:16-77
+meta-data#com.epicgames.ue4.GameActivity.StartupPermissions
+ADDED from Z:\app\src\main\AndroidManifest.xml:29:5-141
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:29:81-138
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:29:16-80
+meta-data#com.google.android.gms.games.APP_ID
+ADDED from Z:\app\src\main\AndroidManifest.xml:30:5-100
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:30:67-97
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:30:16-66
+meta-data#com.google.android.gms.version
+ADDED from Z:\app\src\main\AndroidManifest.xml:31:5-118
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f4620446ca1c923c9830c6148ad4d731\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f4620446ca1c923c9830c6148ad4d731\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:31:62-115
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:31:16-61
+activity#com.google.android.gms.ads.AdActivity
+ADDED from Z:\app\src\main\AndroidManifest.xml:32:5-180
+	android:configChanges
+		ADDED from Z:\app\src\main\AndroidManifest.xml:32:68-177
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:32:15-67
+service#com.YourCompany.Breakthrough.OBBDownloaderService
+ADDED from Z:\app\src\main\AndroidManifest.xml:33:5-52
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:33:14-49
+receiver#com.YourCompany.Breakthrough.AlarmReceiver
+ADDED from Z:\app\src\main\AndroidManifest.xml:34:5-46
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:34:15-43
+receiver#com.epicgames.ue4.LocalNotificationReceiver
+ADDED from Z:\app\src\main\AndroidManifest.xml:35:5-76
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:35:15-73
+receiver#com.epicgames.ue4.MulticastBroadcastReceiver
+ADDED from Z:\app\src\main\AndroidManifest.xml:36:5-40:16
+	android:exported
+		ADDED from Z:\app\src\main\AndroidManifest.xml:36:75-98
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:36:15-74
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from Z:\app\src\main\AndroidManifest.xml:37:7-39:23
+action#com.android.vending.INSTALL_REFERRER
+ADDED from Z:\app\src\main\AndroidManifest.xml:38:9-71
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:38:17-68
+meta-data#android.max_aspect
+ADDED from Z:\app\src\main\AndroidManifest.xml:41:5-79
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:41:50-76
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:41:16-49
+meta-data#com.samsung.android.vr.application.mode
+ADDED from Z:\app\src\main\AndroidManifest.xml:42:5-97
+	android:value
+		ADDED from Z:\app\src\main\AndroidManifest.xml:42:71-94
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:42:16-70
+uses-feature#0x00030001
+ADDED from Z:\app\src\main\AndroidManifest.xml:45:3-76
+	android:glEsVersion
+		ADDED from Z:\app\src\main\AndroidManifest.xml:45:17-49
+	android:required
+		ADDED from Z:\app\src\main\AndroidManifest.xml:45:50-73
+uses-permission#android.permission.INTERNET
+ADDED from Z:\app\src\main\AndroidManifest.xml:46:3-65
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\225865dbe08ebb8df73c7023a347aabf\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\225865dbe08ebb8df73c7023a347aabf\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\34eef3177a71e492da7aa9cbc25f0a1e\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\34eef3177a71e492da7aa9cbc25f0a1e\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:46:20-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from Z:\app\src\main\AndroidManifest.xml:47:3-79
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:47:20-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from Z:\app\src\main\AndroidManifest.xml:48:3-77
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\b745d27fc16a969bc722a5d02b9e53d7\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\b745d27fc16a969bc722a5d02b9e53d7\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:48:20-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from Z:\app\src\main\AndroidManifest.xml:49:3-66
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:49:20-63
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from Z:\app\src\main\AndroidManifest.xml:50:3-71
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:50:20-68
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from Z:\app\src\main\AndroidManifest.xml:51:3-74
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:51:20-71
+supports-gl-texture#GL_KHR_texture_compression_astc_ldr
+ADDED from Z:\app\src\main\AndroidManifest.xml:53:3-77
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:53:24-74
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from Z:\app\src\main\AndroidManifest.xml:54:3-78
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:54:20-75
+uses-feature#android.hardware.usb.host
+ADDED from Z:\app\src\main\AndroidManifest.xml:55:3-60
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:55:17-57
+uses-feature#android.hardware.vr.headtracking
+ADDED from Z:\app\src\main\AndroidManifest.xml:56:3-111
+	android:version
+		ADDED from Z:\app\src\main\AndroidManifest.xml:56:65-84
+	android:required
+		ADDED from Z:\app\src\main\AndroidManifest.xml:56:85-108
+	android:name
+		ADDED from Z:\app\src\main\AndroidManifest.xml:56:17-64
+uses-sdk
+INJECTED from Z:\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from Z:\app\src\main\AndroidManifest.xml
+INJECTED from Z:\app\src\main\AndroidManifest.xml
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-games-11.8.0.aar\baa439d37d67f4d2749359e065aab470\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-games-11.8.0.aar\baa439d37d67f4d2749359e065aab470\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\b745d27fc16a969bc722a5d02b9e53d7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-nearby:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-nearby-11.8.0.aar\b745d27fc16a969bc722a5d02b9e53d7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-plus:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.8.0.aar\be52197c4f2c61ce2029f7d30c686818\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-plus:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-plus-11.8.0.aar\be52197c4f2c61ce2029f7d30c686818\AndroidManifest.xml:20:5-44
+MERGED from [:downloader_library] Z:\downloader_library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:downloader_library] Z:\downloader_library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:permission_library] Z:\permission_library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [:permission_library] Z:\permission_library\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v13:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.0.aar\4c8b4a5c46bddd07d4c67da03b92f865\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-v13-27.1.0.aar\4c8b4a5c46bddd07d4c67da03b92f865\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\225865dbe08ebb8df73c7023a347aabf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\225865dbe08ebb8df73c7023a347aabf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\be9cab19bdb0061bc5dedc7fe162fa00\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\be9cab19bdb0061bc5dedc7fe162fa00\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\a78e703767131703510e42b6e51dd3c9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-11.8.0.aar\a78e703767131703510e42b6e51dd3c9\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\81a84c8fae506f806862ad2d65493546\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-11.8.0.aar\81a84c8fae506f806862ad2d65493546\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.8.0.aar\14248991ca9022a4e4c7ea37575cde77\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-drive:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-drive-11.8.0.aar\14248991ca9022a4e4c7ea37575cde77\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\34eef3177a71e492da7aa9cbc25f0a1e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\34eef3177a71e492da7aa9cbc25f0a1e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\39eac7c9b39a4b7e0380375cba997a5e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\39eac7c9b39a4b7e0380375cba997a5e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\3d3f75855cc0f00c9ad3eaa460236973\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\3d3f75855cc0f00c9ad3eaa460236973\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f4620446ca1c923c9830c6148ad4d731\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\f4620446ca1c923c9830c6148ad4d731\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.8.0.aar\d8708d6da3e81140700c766bcd911a8f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-games-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-games-license-11.8.0.aar\d8708d6da3e81140700c766bcd911a8f\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-nearby-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.8.0.aar\dfc3690e14c1e8344ad1c1435fe5d12d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-nearby-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-nearby-license-11.8.0.aar\dfc3690e14c1e8344ad1c1435fe5d12d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-plus-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.8.0.aar\2bae7f17a54aa6c15cb56ffebb8fa858\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-plus-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-plus-license-11.8.0.aar\2bae7f17a54aa6c15cb56ffebb8fa858\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\0a0e0ee4d36def07f80c95d4810612c5\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-gcm-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-license-11.8.0.aar\0a0e0ee4d36def07f80c95d4810612c5\AndroidManifest.xml:4:5-43
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\cb2bc1234f176a046d48f6c39475fc91\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\cb2bc1234f176a046d48f6c39475fc91\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\7c23df97d9afe9c16fd040c9b4cf2d8e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\7c23df97d9afe9c16fd040c9b4cf2d8e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\bf823b302890590a06dc847b739b4f13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\bf823b302890590a06dc847b739b4f13\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\9646c36e6f90766b395c33a483f6acd4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\9646c36e6f90766b395c33a483f6acd4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\d2a7851de636d29203d6757fbd9582a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\d2a7851de636d29203d6757fbd9582a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\24c711fc3b116134f07710c8f7d49ec9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\24c711fc3b116134f07710c8f7d49ec9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2b24f9309312da7f09ab7db871a5f238\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\2b24f9309312da7f09ab7db871a5f238\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\48e739560a58a37d3160463b328e98d0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\48e739560a58a37d3160463b328e98d0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\463ff03a6240249a4e840a9578bc4a23\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\463ff03a6240249a4e840a9578bc4a23\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\bef69ddbf17d20d3f1a0f32d885d32ea\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\bef69ddbf17d20d3f1a0f32d885d32ea\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\d6bad89c71bed5ebdb1480394d8ab89c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\d6bad89c71bed5ebdb1480394d8ab89c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\2d69f318cd73069fa31212b06b5795c7\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-license-11.8.0.aar\2d69f318cd73069fa31212b06b5795c7\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\f090f39fc5c2e6c83e5008d3cc437a35\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-auth-base-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-license-11.8.0.aar\f090f39fc5c2e6c83e5008d3cc437a35\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\0fdfe76e6514fa92d02f7d84a90f03c2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\0fdfe76e6514fa92d02f7d84a90f03c2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\f75ca416993142dd3042382ee3fbcd2c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\f75ca416993142dd3042382ee3fbcd2c\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\2487338e9b3c86d5fc53a7c56c69292b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\2487338e9b3c86d5fc53a7c56c69292b\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.8.0.aar\8ef5774b50bd884164abbcd4c8650c3e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-drive-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-drive-license-11.8.0.aar\8ef5774b50bd884164abbcd4c8650c3e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\c15f624c0ce5f2779bc08d7b7b2e05f8\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-iid-license:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-license-11.8.0.aar\c15f624c0ce5f2779bc08d7b7b2e05f8\AndroidManifest.xml:4:5-43
+INJECTED from Z:\app\src\main\AndroidManifest.xml
+INJECTED from Z:\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		ADDED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+		ADDED from Z:\app\src\main\AndroidManifest.xml
+		INJECTED from Z:\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-auth-11.8.0.aar\b072d5d0a3b9881c45ddc84e2acd43a6\AndroidManifest.xml:34:13-89
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\225865dbe08ebb8df73c7023a347aabf\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\34eef3177a71e492da7aa9cbc25f0a1e\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.8.0.aar\34eef3177a71e492da7aa9cbc25f0a1e\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.8.0.aar\225865dbe08ebb8df73c7023a347aabf\AndroidManifest.xml:23:22-79
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\be9cab19bdb0061bc5dedc7fe162fa00\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\be9cab19bdb0061bc5dedc7fe162fa00\AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\be9cab19bdb0061bc5dedc7fe162fa00\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\be9cab19bdb0061bc5dedc7fe162fa00\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\extensions-1.1.1.aar\be9cab19bdb0061bc5dedc7fe162fa00\AndroidManifest.xml:24:13-83
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\39eac7c9b39a4b7e0380375cba997a5e\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\39eac7c9b39a4b7e0380375cba997a5e\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\39eac7c9b39a4b7e0380375cba997a5e\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Apache\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\39eac7c9b39a4b7e0380375cba997a5e\AndroidManifest.xml:24:13-79

@@ -18,6 +18,48 @@ class AActor;
 #define Apache_Shooter_Source_Apache_Shooter_Public_S_Character_h_12_SPARSE_DATA
 #define Apache_Shooter_Source_Apache_Shooter_Public_S_Character_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execPickupWeapon) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PickupWeapon(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execPickupItem) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PickupItem(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSelectItem) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_ItemIndex); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectItem(Z_Param_ItemIndex); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execHidePickup) \
+	{ \
+		P_GET_OBJECT(AS_Pickup,Z_Param_Hide); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HidePickup(Z_Param_Hide); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCharInits) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CharInits(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSelectItem4) \
 	{ \
 		P_FINISH; \
@@ -67,11 +109,11 @@ class AActor;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execPickupItem) \
+	DECLARE_FUNCTION(execSetPickupType) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->PickupItem(); \
+		P_THIS->SetPickupType(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -124,6 +166,48 @@ class AActor;
 
 #define Apache_Shooter_Source_Apache_Shooter_Public_S_Character_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execPickupWeapon) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PickupWeapon(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execPickupItem) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->PickupItem(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSelectItem) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_ItemIndex); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectItem(Z_Param_ItemIndex); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execHidePickup) \
+	{ \
+		P_GET_OBJECT(AS_Pickup,Z_Param_Hide); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->HidePickup(Z_Param_Hide); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCharInits) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->CharInits(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSelectItem4) \
 	{ \
 		P_FINISH; \
@@ -173,11 +257,11 @@ class AActor;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execPickupItem) \
+	DECLARE_FUNCTION(execSetPickupType) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->PickupItem(); \
+		P_THIS->SetPickupType(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -275,6 +359,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AS_Character); \
 	FORCEINLINE static uint32 __PPO__MaxSpeed() { return STRUCT_OFFSET(AS_Character, MaxSpeed); } \
 	FORCEINLINE static uint32 __PPO__Health() { return STRUCT_OFFSET(AS_Character, Health); } \
 	FORCEINLINE static uint32 __PPO__PickupNearActor() { return STRUCT_OFFSET(AS_Character, PickupNearActor); } \
+	FORCEINLINE static uint32 __PPO__WeaponNearActor() { return STRUCT_OFFSET(AS_Character, WeaponNearActor); } \
 	FORCEINLINE static uint32 __PPO__InHandsItem() { return STRUCT_OFFSET(AS_Character, InHandsItem); } \
 	FORCEINLINE static uint32 __PPO__ItemsInventory() { return STRUCT_OFFSET(AS_Character, ItemsInventory); } \
 	FORCEINLINE static uint32 __PPO__WeaponInventory() { return STRUCT_OFFSET(AS_Character, WeaponInventory); } \

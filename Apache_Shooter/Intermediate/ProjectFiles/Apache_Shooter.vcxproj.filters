@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Apache_Shooter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{D6BDD5F8-A30F-436C-A984-0F173DCDEB1F}</UniqueIdentifier>
+      <UniqueIdentifier>{B9FB7A01-E99E-4E84-A049-193215217BB9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Apache_Shooter.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{30D44D16-E7B1-4562-82AE-A8B9C651C38B}</UniqueIdentifier>
+      <UniqueIdentifier>{DAA975FB-4758-4745-8319-FEAF5B687D3B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Apache_Shooter">
-      <UniqueIdentifier>{B7B22FCC-CC82-4B20-B5C4-29929FB36E8D}</UniqueIdentifier>
+      <UniqueIdentifier>{E137E6D7-3D9A-4CDC-8886-117E1569B03C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Apache_Shooter\Apache_Shooter.Build.cs">
       <Filter>Source\Apache_Shooter</Filter>
@@ -45,7 +45,7 @@
       <Filter>Source\Apache_Shooter</Filter>
     </ClInclude>
     <Filter Include="Source\Apache_Shooter\Private">
-      <UniqueIdentifier>{B022CB6F-61E4-4E36-BF25-4D3D683399C9}</UniqueIdentifier>
+      <UniqueIdentifier>{7BA0BFB1-C6FD-4B0D-8770-6A0EB7F17E94}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Apache_Shooter\Private\S_Character.cpp">
       <Filter>Source\Apache_Shooter\Private</Filter>
@@ -56,8 +56,11 @@
     <ClCompile Include="..\..\Source\Apache_Shooter\Private\S_Weapon.cpp">
       <Filter>Source\Apache_Shooter\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Apache_Shooter\Private\S_Weapon_Pistol.cpp">
+      <Filter>Source\Apache_Shooter\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\Apache_Shooter\Public">
-      <UniqueIdentifier>{4EC3CB82-34F0-4B97-9E81-DDD015F209B5}</UniqueIdentifier>
+      <UniqueIdentifier>{3DAAE40D-087B-4CB3-8167-F467B4A9F69C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Apache_Shooter\Public\S_Character.h">
       <Filter>Source\Apache_Shooter\Public</Filter>
@@ -66,6 +69,9 @@
       <Filter>Source\Apache_Shooter\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Apache_Shooter\Public\S_Weapon.h">
+      <Filter>Source\Apache_Shooter\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Apache_Shooter\Public\S_Weapon_Pistol.h">
       <Filter>Source\Apache_Shooter\Public</Filter>
     </ClInclude>
   </ItemGroup>

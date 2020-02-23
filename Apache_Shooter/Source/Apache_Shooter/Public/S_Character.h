@@ -18,13 +18,9 @@ public:
 
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-private:
-	void HidePickup(AS_Pickup* Hide);
-
-	void CharInits();
-
 protected:
-	//PROPERTYES
+
+//PROPERTYES
 	UPROPERTY(EditAnywhere, Category = Components)
 	FString Index;
 
@@ -38,6 +34,9 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category = PickupItem)
 	class AS_Pickup* PickupNearActor;
 
+	UPROPERTY(VisibleAnywhere, Category = PickupWeapon)
+	class AS_Weapon* WeaponNearActor;
+
 	//Global Reference to the currently equipped item
 	UPROPERTY(VisibleAnywhere, Category = PickupItem)
 	class AS_Pickup* InHandsItem;
@@ -48,7 +47,7 @@ protected:
 
 	//Character weapons Inventory
 	UPROPERTY(VisibleAnywhere, Category = WeaponsInventory)
-	TArray<class AS_Pickup*> WeaponInventory;
+	TArray<class AS_Weapon*> WeaponInventory;
 
 	UPROPERTY(VisibleAnywhere, Category = Components)
 	class USpringArmComponent* SpringArmComp;
@@ -56,7 +55,7 @@ protected:
 	UPROPERTY(VisibleAnywhere, Category = Components)
 	class UCameraComponent* CameraComp;
 
-	//FUNCTIONS
+//FUNCTIONS
 	virtual void BeginPlay() override;
 
 	UFUNCTION()
@@ -75,7 +74,7 @@ protected:
 	void EndOverlap(AActor* OverlappedActor, AActor* OtherActor);
 
 	UFUNCTION(BlueprintCallable, Category = Pickup)
-	void PickupItem();
+	void SetPickupType();
 
 	UFUNCTION(BlueprintCallable, Category = Pickup)
 	void HoldItem(AS_Pickup* ItemIn);
@@ -95,4 +94,19 @@ protected:
 	UFUNCTION(BlueprintCallable, Category = Pickup)
 	void SelectItem4();
 
+private:
+	UFUNCTION()
+	void CharInits();
+
+	UFUNCTION()
+	void HidePickup(AS_Pickup* Hide);
+
+	UFUNCTION()
+	void SelectItem(int32 ItemIndex);
+
+	UFUNCTION()
+	void PickupItem();
+
+	UFUNCTION()
+	void PickupWeapon();
 };

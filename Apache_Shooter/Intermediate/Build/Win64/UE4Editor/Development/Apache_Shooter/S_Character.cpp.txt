@@ -7,6 +7,8 @@ C:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.genera
 D:\Projects\Apache_Shooter\Intermediate\Build\Win64\UE4Editor\Inc\Apache_Shooter\S_Character.generated.h
 D:\Projects\Apache_Shooter\Source\Apache_Shooter\Public\S_Pickup.h
 D:\Projects\Apache_Shooter\Intermediate\Build\Win64\UE4Editor\Inc\Apache_Shooter\S_Pickup.generated.h
+D:\Projects\Apache_Shooter\Source\Apache_Shooter\Public\S_Weapon.h
+D:\Projects\Apache_Shooter\Intermediate\Build\Win64\UE4Editor\Inc\Apache_Shooter\S_Weapon.generated.h
 C:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
 C:\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
 C:\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementComponent.h

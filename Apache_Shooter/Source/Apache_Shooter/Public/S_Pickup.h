@@ -23,6 +23,8 @@ public:
 
 	void DetachPickup();
 
+	bool bIsWeapon;
+
 protected:
 	virtual void BeginPlay() override;
 	
