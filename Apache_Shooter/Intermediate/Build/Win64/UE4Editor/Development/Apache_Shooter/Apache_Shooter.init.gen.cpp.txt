@@ -1,3 +1,0 @@
-D:\Projects\Apache_Shooter\Intermediate\Build\Win64\UE4Editor\Development\Apache_Shooter\Definitions.Apache_Shooter.h
-C:\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-C:\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
