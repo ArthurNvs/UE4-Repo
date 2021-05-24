@@ -1,5 +1,0 @@
-D:\Projetos\Breakthrough\Intermediate\Build\Win64\UE4Editor\Development\Breakthrough\Definitions.Breakthrough.h
-D:\Projetos\Breakthrough\Source\Breakthrough\BObject.h
-D:\Projetos\Breakthrough\Source\Breakthrough\BInteractionInterface.h
-D:\Projetos\Breakthrough\Intermediate\Build\Win64\UE4Editor\Inc\Breakthrough\BInteractionInterface.generated.h
-D:\Projetos\Breakthrough\Intermediate\Build\Win64\UE4Editor\Inc\Breakthrough\BObject.generated.h

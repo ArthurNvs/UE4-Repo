@@ -1,3 +1,0 @@
-D:\Projetos\Breakthrough\Source\Breakthrough\Breakthrough.Build.cs
-D:\Projetos\Breakthrough\Source\Breakthrough.Target.cs
-D:\Projetos\Breakthrough\Source\BreakthroughEditor.Target.cs
